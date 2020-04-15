@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/valentin-sigalov-2020/static/css/main.d1b05096.chunk.css",
+    "main.js": "/valentin-sigalov-2020/static/js/main.2b013b73.chunk.js",
+    "main.js.map": "/valentin-sigalov-2020/static/js/main.2b013b73.chunk.js.map",
+    "runtime-main.js": "/valentin-sigalov-2020/static/js/runtime-main.49541f82.js",
+    "runtime-main.js.map": "/valentin-sigalov-2020/static/js/runtime-main.49541f82.js.map",
+    "static/js/2.4a69bb07.chunk.js": "/valentin-sigalov-2020/static/js/2.4a69bb07.chunk.js",
+    "static/js/2.4a69bb07.chunk.js.map": "/valentin-sigalov-2020/static/js/2.4a69bb07.chunk.js.map",
+    "index.html": "/valentin-sigalov-2020/index.html",
+    "precache-manifest.067929ed8f4ca38280eebc1d77c07516.js": "/valentin-sigalov-2020/precache-manifest.067929ed8f4ca38280eebc1d77c07516.js",
+    "service-worker.js": "/valentin-sigalov-2020/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/valentin-sigalov-2020/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.4a69bb07.chunk.js.LICENSE.txt": "/valentin-sigalov-2020/static/js/2.4a69bb07.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/valentin-sigalov-2020/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.49541f82.js",
+    "static/js/2.4a69bb07.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.2b013b73.chunk.js"
+  ]
+}
