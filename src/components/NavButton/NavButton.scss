@@ -1,0 +1,192 @@
+.splash-left-sidebar-nav {
+  li.splash-right-nav-element {
+    margin: 0 auto;
+    a.splash-nav-button {
+      margin: 4px auto;
+      height: 60px;
+    }
+  }
+}
+
+li.splash-right-nav-element {
+  display: block;
+  width: 500px;
+  max-width: 80%;
+
+  $splash-nav-button-ease: 0.2s ease-in-out;
+  transition: $splash-nav-button-ease;
+
+  a.splash-nav-button {
+    text-decoration: none;
+
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+
+    padding: 0;
+    margin: 6px auto;
+    height: 70px;
+    max-height: 70px;
+
+    transition: 0.2s ease-in-out;
+
+    &.fade-away {
+      opacity: 0.2;
+    }
+
+    .splash-nav-bgcolor {
+      position: absolute;
+      $splash-nav-button-inner-spacing: 10px;
+      top: $splash-nav-button-inner-spacing;
+      left: $splash-nav-button-inner-spacing;
+      right: $splash-nav-button-inner-spacing;
+      bottom: $splash-nav-button-inner-spacing;
+
+      //background-color: rgba($color-about, 0);
+      z-index: -1;
+      transition: 0.7s;
+    }
+
+    .splash-nav-border {
+      position: absolute;
+      top: 0;
+      left: -40px;
+      right: -40px;
+      bottom: 0;
+
+      z-index: 1;
+      transition: 0.1s;
+      border: 3px solid transparent;
+    }
+
+    .splash-nav-text {
+      text-decoration: none;
+      font-family: $font-heading;
+      color: $brand-secondary;
+      font-size: 16px;
+      font-weight: 700;
+      transition: $splash-nav-button-ease;
+    }
+
+    .splash-nav-icon {
+      width: 90px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      svg {
+        transform: scale(0.7);
+        transition: $splash-nav-button-ease;
+        margin-top: 3px;
+        path {
+          fill: $brand-secondary;
+        }
+      }
+      transition: $splash-nav-button-ease;
+    }
+
+    .splash-nav-arrow {
+      flex: 1;
+
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+      justify-content: flex-end;
+
+      margin-right: 60px;
+      opacity: 0;
+
+      svg {
+        transform: scale(0.6);
+        transition: $splash-nav-button-ease;
+      }
+      transition: $splash-nav-button-ease;
+    }
+
+    svg {
+      path {
+        stroke: $brand-secondary;
+        transition: $splash-nav-button-ease;
+      }
+    }
+  }
+
+  @mixin splashNavButtonColor($color) {
+    a {
+      &:hover, &:focus {
+
+        .splash-nav-text {
+          color: $color;
+        }
+
+        .splash-nav-bgcolor {
+          $splash-nav-button-inner-spacing: 4px;
+          top: $splash-nav-button-inner-spacing;
+          left: $splash-nav-button-inner-spacing;
+          right: $splash-nav-button-inner-spacing;
+          bottom: $splash-nav-button-inner-spacing;
+
+          background-color: rgba($color, 0.1);
+        }
+
+        .splash-nav-arrow {
+          opacity: 1;
+          margin-right: 20px;
+          svg {
+            transform: scale(0.8);
+          }
+        }
+
+        .splash-nav-icon {
+          svg {
+            transform: scale(0.8);
+            path {
+              fill: $color;
+              stroke: $color;
+            }
+          }
+        }
+
+        .splash-nav-border {
+          top: -2px;
+          left: -2px;
+          right: -2px;
+          bottom: -2px;
+
+          border-color: rgba($color, 1);
+        }
+      }
+
+      .splash-nav-border {
+        border-color: rgba($color, 0);
+      }
+
+      .splash-nav-bgcolor {
+        background-color: rgba($color, 0);
+      }
+
+      .splash-nav-arrow {
+        svg path {
+          stroke: $color;
+        }
+      }
+    }
+  }
+
+  &.splash-nav-aboutme {
+    @include splashNavButtonColor($color-about);
+  }
+  &.splash-nav-skills {
+    @include splashNavButtonColor($color-skills);
+  }
+  &.splash-nav-experience {
+    @include splashNavButtonColor($color-experience);
+  }
+  &.splash-nav-projects {
+    @include splashNavButtonColor($color-projects);
+  }
+  &.splash-nav-contact {
+    @include splashNavButtonColor($color-contact);
+  }
+}
