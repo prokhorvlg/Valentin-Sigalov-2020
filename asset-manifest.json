@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/Valentin-Sigalov-2020/static/css/main.7f821b26.chunk.css",
-    "main.js": "/Valentin-Sigalov-2020/static/js/main.d8a4dc3a.chunk.js",
-    "main.js.map": "/Valentin-Sigalov-2020/static/js/main.d8a4dc3a.chunk.js.map",
+    "main.css": "/Valentin-Sigalov-2020/static/css/main.08b4a5e9.chunk.css",
+    "main.js": "/Valentin-Sigalov-2020/static/js/main.13b8ed43.chunk.js",
+    "main.js.map": "/Valentin-Sigalov-2020/static/js/main.13b8ed43.chunk.js.map",
     "runtime-main.js": "/Valentin-Sigalov-2020/static/js/runtime-main.431f4f87.js",
     "runtime-main.js.map": "/Valentin-Sigalov-2020/static/js/runtime-main.431f4f87.js.map",
-    "static/js/2.ec5c2f28.chunk.js": "/Valentin-Sigalov-2020/static/js/2.ec5c2f28.chunk.js",
-    "static/js/2.ec5c2f28.chunk.js.map": "/Valentin-Sigalov-2020/static/js/2.ec5c2f28.chunk.js.map",
+    "static/js/2.0929f177.chunk.js": "/Valentin-Sigalov-2020/static/js/2.0929f177.chunk.js",
+    "static/js/2.0929f177.chunk.js.map": "/Valentin-Sigalov-2020/static/js/2.0929f177.chunk.js.map",
     "index.html": "/Valentin-Sigalov-2020/index.html",
-    "precache-manifest.5a0691ec1646ff6b3b19ec8766a26332.js": "/Valentin-Sigalov-2020/precache-manifest.5a0691ec1646ff6b3b19ec8766a26332.js",
+    "precache-manifest.f905c194b73e2ad1e960db7597127c2c.js": "/Valentin-Sigalov-2020/precache-manifest.f905c194b73e2ad1e960db7597127c2c.js",
     "service-worker.js": "/Valentin-Sigalov-2020/service-worker.js",
-    "static/css/main.7f821b26.chunk.css.map": "/Valentin-Sigalov-2020/static/css/main.7f821b26.chunk.css.map",
-    "static/js/2.ec5c2f28.chunk.js.LICENSE.txt": "/Valentin-Sigalov-2020/static/js/2.ec5c2f28.chunk.js.LICENSE.txt",
+    "static/css/main.08b4a5e9.chunk.css.map": "/Valentin-Sigalov-2020/static/css/main.08b4a5e9.chunk.css.map",
+    "static/js/2.0929f177.chunk.js.LICENSE.txt": "/Valentin-Sigalov-2020/static/js/2.0929f177.chunk.js.LICENSE.txt",
     "static/media/2020PS-resume-pic.png": "/Valentin-Sigalov-2020/static/media/2020PS-resume-pic.790e4c5e.png",
     "static/media/compiler.scss": "/Valentin-Sigalov-2020/static/media/2020PS-splash-bg.0d2a0fa1.png"
   },
   "entrypoints": [
     "static/js/runtime-main.431f4f87.js",
-    "static/js/2.ec5c2f28.chunk.js",
-    "static/css/main.7f821b26.chunk.css",
-    "static/js/main.d8a4dc3a.chunk.js"
+    "static/js/2.0929f177.chunk.js",
+    "static/css/main.08b4a5e9.chunk.css",
+    "static/js/main.13b8ed43.chunk.js"
   ]
 }
