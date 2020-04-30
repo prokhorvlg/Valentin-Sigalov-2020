@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Valentin-Sigalov-2020/static/css/main.23326573.chunk.css",
-    "main.js": "/Valentin-Sigalov-2020/static/js/main.47bf3512.chunk.js",
-    "main.js.map": "/Valentin-Sigalov-2020/static/js/main.47bf3512.chunk.js.map",
+    "main.js": "/Valentin-Sigalov-2020/static/js/main.29970513.chunk.js",
+    "main.js.map": "/Valentin-Sigalov-2020/static/js/main.29970513.chunk.js.map",
     "runtime-main.js": "/Valentin-Sigalov-2020/static/js/runtime-main.431f4f87.js",
     "runtime-main.js.map": "/Valentin-Sigalov-2020/static/js/runtime-main.431f4f87.js.map",
     "static/js/2.2a5c1ff8.chunk.js": "/Valentin-Sigalov-2020/static/js/2.2a5c1ff8.chunk.js",
     "static/js/2.2a5c1ff8.chunk.js.map": "/Valentin-Sigalov-2020/static/js/2.2a5c1ff8.chunk.js.map",
     "index.html": "/Valentin-Sigalov-2020/index.html",
-    "precache-manifest.97c3dc98255a5c1720ee23e0a1dbb5f1.js": "/Valentin-Sigalov-2020/precache-manifest.97c3dc98255a5c1720ee23e0a1dbb5f1.js",
+    "precache-manifest.4e0137fee6f4243a181cf188b2b302d6.js": "/Valentin-Sigalov-2020/precache-manifest.4e0137fee6f4243a181cf188b2b302d6.js",
     "service-worker.js": "/Valentin-Sigalov-2020/service-worker.js",
     "static/css/main.23326573.chunk.css.map": "/Valentin-Sigalov-2020/static/css/main.23326573.chunk.css.map",
     "static/js/2.2a5c1ff8.chunk.js.LICENSE.txt": "/Valentin-Sigalov-2020/static/js/2.2a5c1ff8.chunk.js.LICENSE.txt",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.431f4f87.js",
     "static/js/2.2a5c1ff8.chunk.js",
     "static/css/main.23326573.chunk.css",
-    "static/js/main.47bf3512.chunk.js"
+    "static/js/main.29970513.chunk.js"
   ]
 }
