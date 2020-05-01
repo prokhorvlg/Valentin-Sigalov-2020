@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Valentin-Sigalov-2020/precache-manifest.2c43572bc9e399b4842ebae7e58987b6.js"
+  "/Valentin-Sigalov-2020/precache-manifest.f05db5c4848e1d0a84bf196603562ef5.js"
 );
 
 self.addEventListener('message', (event) => {
