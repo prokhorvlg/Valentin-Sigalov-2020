@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Valentin-Sigalov-2020/static/css/main.2977c07d.chunk.css",
+    "main.css": "/Valentin-Sigalov-2020/static/css/main.d0d3b800.chunk.css",
     "main.js": "/Valentin-Sigalov-2020/static/js/main.f4d3bc22.chunk.js",
     "main.js.map": "/Valentin-Sigalov-2020/static/js/main.f4d3bc22.chunk.js.map",
     "runtime-main.js": "/Valentin-Sigalov-2020/static/js/runtime-main.431f4f87.js",
@@ -9,10 +9,10 @@
     "static/js/2.bb69846c.chunk.js": "/Valentin-Sigalov-2020/static/js/2.bb69846c.chunk.js",
     "static/js/2.bb69846c.chunk.js.map": "/Valentin-Sigalov-2020/static/js/2.bb69846c.chunk.js.map",
     "index.html": "/Valentin-Sigalov-2020/index.html",
-    "precache-manifest.6d82af48be2eb87bbd50af6e4ea21a77.js": "/Valentin-Sigalov-2020/precache-manifest.6d82af48be2eb87bbd50af6e4ea21a77.js",
+    "precache-manifest.29b06637e1e9eec9f6af2ec00cf57a1c.js": "/Valentin-Sigalov-2020/precache-manifest.29b06637e1e9eec9f6af2ec00cf57a1c.js",
     "service-worker.js": "/Valentin-Sigalov-2020/service-worker.js",
     "static/css/2.d3e54801.chunk.css.map": "/Valentin-Sigalov-2020/static/css/2.d3e54801.chunk.css.map",
-    "static/css/main.2977c07d.chunk.css.map": "/Valentin-Sigalov-2020/static/css/main.2977c07d.chunk.css.map",
+    "static/css/main.d0d3b800.chunk.css.map": "/Valentin-Sigalov-2020/static/css/main.d0d3b800.chunk.css.map",
     "static/js/2.bb69846c.chunk.js.LICENSE.txt": "/Valentin-Sigalov-2020/static/js/2.bb69846c.chunk.js.LICENSE.txt",
     "static/media/2020PS-resume-pic.png": "/Valentin-Sigalov-2020/static/media/2020PS-resume-pic.790e4c5e.png",
     "static/media/compiler.scss": "/Valentin-Sigalov-2020/static/media/2020PS-splash-bg.0d2a0fa1.png",
@@ -23,7 +23,7 @@
     "static/js/runtime-main.431f4f87.js",
     "static/css/2.d3e54801.chunk.css",
     "static/js/2.bb69846c.chunk.js",
-    "static/css/main.2977c07d.chunk.css",
+    "static/css/main.d0d3b800.chunk.css",
     "static/js/main.f4d3bc22.chunk.js"
   ]
 }
