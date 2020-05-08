@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a689b40637015d4b241051d66648ac36",
+    "revision": "f0a3688359a29baf05ac04a7f32fd931",
     "url": "/Valentin-Sigalov-2020/index.html"
   },
   {
-    "revision": "2441e16eef51e3ffe3c8",
+    "revision": "2719ecff94169378d209",
     "url": "/Valentin-Sigalov-2020/static/css/2.d3e54801.chunk.css"
   },
   {
-    "revision": "07b1a49a6e18962f7cd1",
-    "url": "/Valentin-Sigalov-2020/static/css/main.2c26f2f1.chunk.css"
+    "revision": "5954f8ab117f00eaaba6",
+    "url": "/Valentin-Sigalov-2020/static/css/main.dcddaee1.chunk.css"
   },
   {
-    "revision": "2441e16eef51e3ffe3c8",
-    "url": "/Valentin-Sigalov-2020/static/js/2.6946d4b4.chunk.js"
+    "revision": "2719ecff94169378d209",
+    "url": "/Valentin-Sigalov-2020/static/js/2.bb69846c.chunk.js"
   },
   {
     "revision": "b1c48fb50b52ff7e51ea57a4c76b798d",
-    "url": "/Valentin-Sigalov-2020/static/js/2.6946d4b4.chunk.js.LICENSE.txt"
+    "url": "/Valentin-Sigalov-2020/static/js/2.bb69846c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "07b1a49a6e18962f7cd1",
-    "url": "/Valentin-Sigalov-2020/static/js/main.22b8cf16.chunk.js"
+    "revision": "5954f8ab117f00eaaba6",
+    "url": "/Valentin-Sigalov-2020/static/js/main.f4d3bc22.chunk.js"
   },
   {
     "revision": "accf8f3ba49673acabbb",
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0d2a0fa1a379fa22b066420de3b2fe38",
     "url": "/Valentin-Sigalov-2020/static/media/2020PS-splash-bg.0d2a0fa1.png"
+  },
+  {
+    "revision": "af4107ef0def74a3068d4c95f3826591",
+    "url": "/Valentin-Sigalov-2020/static/media/DevelopmentSkill.af4107ef.png"
   },
   {
     "revision": "fb29930dcd2b40be672089123293bd13",
