@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7aaeaeb45f633764ef9203f58c0e1a66",
+    "revision": "e3bcd560f3b22ae5b847a9827d572cc4",
     "url": "/Valentin-Sigalov-2020/index.html"
   },
   {
-    "revision": "2ca7a774a8d8737ad070",
+    "revision": "3b3156c581621ec8197f",
     "url": "/Valentin-Sigalov-2020/static/css/2.d3e54801.chunk.css"
   },
   {
-    "revision": "417c372ed5cdd25d22f0",
-    "url": "/Valentin-Sigalov-2020/static/css/main.ed3a2a59.chunk.css"
+    "revision": "ad5063a635f570963f81",
+    "url": "/Valentin-Sigalov-2020/static/css/main.9b0b730e.chunk.css"
   },
   {
-    "revision": "2ca7a774a8d8737ad070",
-    "url": "/Valentin-Sigalov-2020/static/js/2.ce89dae1.chunk.js"
+    "revision": "3b3156c581621ec8197f",
+    "url": "/Valentin-Sigalov-2020/static/js/2.b7350e3b.chunk.js"
   },
   {
     "revision": "b1c48fb50b52ff7e51ea57a4c76b798d",
-    "url": "/Valentin-Sigalov-2020/static/js/2.ce89dae1.chunk.js.LICENSE.txt"
+    "url": "/Valentin-Sigalov-2020/static/js/2.b7350e3b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "417c372ed5cdd25d22f0",
-    "url": "/Valentin-Sigalov-2020/static/js/main.beb79e2a.chunk.js"
+    "revision": "ad5063a635f570963f81",
+    "url": "/Valentin-Sigalov-2020/static/js/main.0ff3e98f.chunk.js"
   },
   {
     "revision": "accf8f3ba49673acabbb",
@@ -42,6 +42,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fb29930dcd2b40be672089123293bd13",
     "url": "/Valentin-Sigalov-2020/static/media/GalAndMe.fb29930d.png"
+  },
+  {
+    "revision": "36b0e1ade7173b0cd44da3e43a0e6300",
+    "url": "/Valentin-Sigalov-2020/static/media/LyddieJones.36b0e1ad.png"
+  },
+  {
+    "revision": "7d13449c6c93826317499d4105350fac",
+    "url": "/Valentin-Sigalov-2020/static/media/RandyCat.7d13449c.png"
   },
   {
     "revision": "7c138bb07d208212e89c5241cdc04d54",
