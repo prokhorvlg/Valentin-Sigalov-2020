@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Valentin-Sigalov-2020/static/css/main.0ac885b0.chunk.css",
-    "main.js": "/Valentin-Sigalov-2020/static/js/main.f6993dca.chunk.js",
-    "main.js.map": "/Valentin-Sigalov-2020/static/js/main.f6993dca.chunk.js.map",
+    "main.css": "/Valentin-Sigalov-2020/static/css/main.53bcfea5.chunk.css",
+    "main.js": "/Valentin-Sigalov-2020/static/js/main.dbab9ff2.chunk.js",
+    "main.js.map": "/Valentin-Sigalov-2020/static/js/main.dbab9ff2.chunk.js.map",
     "runtime-main.js": "/Valentin-Sigalov-2020/static/js/runtime-main.431f4f87.js",
     "runtime-main.js.map": "/Valentin-Sigalov-2020/static/js/runtime-main.431f4f87.js.map",
     "static/css/2.d3e54801.chunk.css": "/Valentin-Sigalov-2020/static/css/2.d3e54801.chunk.css",
     "static/js/2.da0b852e.chunk.js": "/Valentin-Sigalov-2020/static/js/2.da0b852e.chunk.js",
     "static/js/2.da0b852e.chunk.js.map": "/Valentin-Sigalov-2020/static/js/2.da0b852e.chunk.js.map",
     "index.html": "/Valentin-Sigalov-2020/index.html",
-    "precache-manifest.d39a33f2a89ec7fd333a524d402903d5.js": "/Valentin-Sigalov-2020/precache-manifest.d39a33f2a89ec7fd333a524d402903d5.js",
+    "precache-manifest.99ac0c119c4a2395793d9da42fd2051a.js": "/Valentin-Sigalov-2020/precache-manifest.99ac0c119c4a2395793d9da42fd2051a.js",
     "service-worker.js": "/Valentin-Sigalov-2020/service-worker.js",
     "static/css/2.d3e54801.chunk.css.map": "/Valentin-Sigalov-2020/static/css/2.d3e54801.chunk.css.map",
-    "static/css/main.0ac885b0.chunk.css.map": "/Valentin-Sigalov-2020/static/css/main.0ac885b0.chunk.css.map",
+    "static/css/main.53bcfea5.chunk.css.map": "/Valentin-Sigalov-2020/static/css/main.53bcfea5.chunk.css.map",
     "static/js/2.da0b852e.chunk.js.LICENSE.txt": "/Valentin-Sigalov-2020/static/js/2.da0b852e.chunk.js.LICENSE.txt",
     "static/media/2020PS-resume-pic.png": "/Valentin-Sigalov-2020/static/media/2020PS-resume-pic.790e4c5e.png",
     "static/media/compiler.scss": "/Valentin-Sigalov-2020/static/media/2020PS-splash-bg.0d2a0fa1.png",
@@ -26,7 +26,7 @@
     "static/js/runtime-main.431f4f87.js",
     "static/css/2.d3e54801.chunk.css",
     "static/js/2.da0b852e.chunk.js",
-    "static/css/main.0ac885b0.chunk.css",
-    "static/js/main.f6993dca.chunk.js"
+    "static/css/main.53bcfea5.chunk.css",
+    "static/js/main.dbab9ff2.chunk.js"
   ]
 }
