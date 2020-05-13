@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0859248b3ee21d19dd6684bb53b60cd5",
+    "revision": "2ca114290da18979a254bf5979ed38de",
     "url": "/Valentin-Sigalov-2020/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Valentin-Sigalov-2020/static/css/2.d3e54801.chunk.css"
   },
   {
-    "revision": "d71b70f88ff00d36d1e4",
-    "url": "/Valentin-Sigalov-2020/static/css/main.eab95d9f.chunk.css"
+    "revision": "d57bd2ad1cbc12cce68c",
+    "url": "/Valentin-Sigalov-2020/static/css/main.78c918e8.chunk.css"
   },
   {
     "revision": "96f5660cdf4e4eccb987",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Valentin-Sigalov-2020/static/js/2.31bfd73e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d71b70f88ff00d36d1e4",
-    "url": "/Valentin-Sigalov-2020/static/js/main.ebed24de.chunk.js"
+    "revision": "d57bd2ad1cbc12cce68c",
+    "url": "/Valentin-Sigalov-2020/static/js/main.069bc09a.chunk.js"
   },
   {
     "revision": "accf8f3ba49673acabbb",
