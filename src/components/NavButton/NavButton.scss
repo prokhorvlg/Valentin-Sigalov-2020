@@ -1,9 +1,20 @@
 .splash-left-sidebar-nav {
   li.splash-right-nav-element {
     margin: 0 auto;
+
     a.splash-nav-button {
       margin: 4px auto;
-      height: 60px;
+      height: 50px;
+
+      .splash-nav-icon {
+        transform: scale(0.6);
+        width: 60px;
+      }
+
+      .splash-nav-text {
+        font-size: 14px;
+        margin-top: 3px;
+      }
     }
   }
 }
@@ -13,8 +24,14 @@ li.splash-right-nav-element {
   width: 500px;
   max-width: 80%;
 
-  $splash-nav-button-ease: 0.2s ease-in-out;
+  $splash-nav-button-ease: 0.1s ease-in-out;
   transition: $splash-nav-button-ease;
+
+  @media (max-width: $breakpoint-med) {
+    margin: 0 auto;
+    max-width: 90%;
+    width: 100%;
+  }
 
   a.splash-nav-button {
     text-decoration: none;
@@ -25,9 +42,9 @@ li.splash-right-nav-element {
     align-items: center;
 
     padding: 0;
-    margin: 6px auto;
-    height: 70px;
-    max-height: 70px;
+    margin: 4px auto;
+    height: 65px;
+    max-height: 65px;
 
     transition: 0.2s ease-in-out;
 
@@ -46,6 +63,7 @@ li.splash-right-nav-element {
       //background-color: rgba($color-about, 0);
       z-index: -1;
       transition: 0.7s;
+      pointer-events: none;
     }
 
     .splash-nav-border {
@@ -58,6 +76,7 @@ li.splash-right-nav-element {
       z-index: 1;
       transition: 0.1s;
       border: 3px solid transparent;
+      pointer-events: none;
     }
 
     .splash-nav-text {
@@ -114,8 +133,8 @@ li.splash-right-nav-element {
 
   @mixin splashNavButtonColor($color) {
     a {
-      &:hover, &:focus {
-
+      &:hover, &.active {
+            
         .splash-nav-text {
           color: $color;
         }
@@ -172,7 +191,20 @@ li.splash-right-nav-element {
         }
       }
     }
+
+    @media (max-width: $breakpoint-med) {
+      a.splash-nav-button .splash-nav-text {
+        color: white;
+      }
+      a.splash-nav-button svg path {
+        fill: white;
+        stroke: white;
+      }
+    }
+
   }
+
+  
 
   &.splash-nav-aboutme {
     @include splashNavButtonColor($color-about);

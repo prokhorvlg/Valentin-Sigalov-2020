@@ -2,8 +2,32 @@ body {
   height: 100%;
   width: 100%;
   overflow-x: hidden;
+  margin: 0;
 }
 
 img {
   max-width: 100%;
+}
+
+.space {
+  height: 100vh;
+  background-color: $color-dark-bg;
+
+  margin-left: 350px;
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    z-index: 1;
+    background-color: $color-about;
+  }
+
+  @media (max-width: $breakpoint-med) {
+    display: none;
+  }
 }

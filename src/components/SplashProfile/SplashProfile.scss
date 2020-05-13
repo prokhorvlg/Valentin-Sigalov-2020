@@ -1,0 +1,427 @@
+.splash-left-profile {
+  width: 50%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  background-color: rgba($brand-primary, 0.04);
+  transition: all 0.3s ease-in-out, background-color 0.2s ease-in-out;
+
+  position: relative;
+
+  @media (max-width: $breakpoint-med) {
+    width: 100%;
+    height: 100vh;
+    min-height: 600px;
+    background: none;
+  }
+
+  .mobile-nav-open {
+    display: none;
+
+    position: fixed;
+    height: 56px;
+    width: 56px;
+    //border-radius: 5px;
+    background-color: black;
+    transition: 0.2s ease-in-out;
+    top: 15px;
+    right: 15px;
+
+    border: 3px solid $brand-primary;
+
+    z-index: 99;
+
+    @media (max-width: $breakpoint-med) {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    &.mobile-nav-aboutme {
+      border-color: $color-about;
+      .burger .burger-lines, .burger .burger-lines::after, .burger .burger-lines::before {
+        background-color: $color-about;
+      }
+    }
+    &.mobile-nav-skills {
+      border-color: $color-skills;
+      .burger .burger-lines, .burger .burger-lines::after, .burger .burger-lines::before {
+        background-color: $color-skills;
+      }
+    }
+    &.mobile-nav-experience {
+      border-color: $color-experience;
+      .burger .burger-lines, .burger .burger-lines::after, .burger .burger-lines::before {
+        background-color: $color-experience;
+      }
+    }
+    &.mobile-nav-projects {
+      border-color: $color-projects;
+      .burger .burger-lines, .burger .burger-lines::after, .burger .burger-lines::before {
+        background-color: $color-projects;
+      }
+    }
+    &.mobile-nav-contact {
+      border-color: $color-contact;
+      .burger .burger-lines, .burger .burger-lines::after, .burger .burger-lines::before {
+        background-color: $color-contact;
+      }
+    }
+
+
+    .burger {
+      font-size: 14px;
+      transform: scale(0.9);
+
+      
+      .burger-lines, .burger-lines::after, .burger-lines::before {
+        background-color: $brand-primary;
+        height: 0.35em;
+        border-radius: 0.15em;
+
+        transition: .1s top .1s, .05s left, .1s transform, .2s background-color .1s;
+        -webkit-transition: .1s top .1s, .05s left, .1s transform, .2s background-color .1s;
+      }
+      &.open .burger-lines, &.open .burger-lines::after, &.open .burger-lines::before {
+        -webkit-transition: .1s background-color, .1s top, .1s left, .1s transform .075s;
+        transition: .1s background-color, .1s top, .1s left, .1s transform .075s;
+      }
+
+      .burger-lines::before {
+        top: 0.8em;
+        left: 0;
+        right: 0;
+        width: auto;
+      }
+      .burger-lines::after {
+        top: -0.8em;
+        left: 0;
+        right: 0;
+        width: auto;
+      }
+
+      &.open .burger-lines::before {
+        top: 0em;
+            left: 0;
+      }
+      &.open .burger-lines::after {
+        top: 0em;
+            left: 0;
+      }
+      &.open .burger-lines {
+        background-color: #17120900;
+      }
+    }
+  }
+
+  .splash-left-upper-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+
+    margin-top: 0;
+    margin-bottom: 0;
+
+    transition: all 0.2s ease-in-out;
+
+    .splash-left-upper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      margin-top: 4vh;
+      margin-bottom: 4vh;
+      transition: all 0.3s ease-in-out;
+
+      width: 100%;
+
+      @media (max-width: $breakpoint-med) {
+        max-width: 100%;
+        margin-top: 0;
+        margin-bottom: 120px;
+      }
+
+      .splash-profile-picture {
+        text-align: center;
+        position: relative;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        transform: scale(0.8);
+        transition: all 0.2s ease-in-out;
+
+        width: 100%;
+
+        img {
+          width: 210px;
+          z-index: 1;
+
+          transform: scale(1);
+          transition: all 0.2s ease-in-out;
+
+        }
+
+        .splash-anim-lines {
+          position: absolute;
+          transform: rotate(0deg) scale(1);
+          opacity: 1;
+          transition: all 0.2s ease-in-out;
+          width:100%;
+          height: 100%;
+
+          overflow-x: hidden;
+
+          @media (max-width: $breakpoint-small) {
+            display: none;
+          }
+        }
+
+        .splash-anim-frameCircles {
+          position: absolute;
+          transform: rotate(0deg) scale(1);
+          opacity: 1;
+          transition: all 0.2s ease-in-out;
+        }
+
+        .splash-profile-anim {
+          position: absolute;
+
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+
+          $splash-anim-funky-length: 75s;
+
+          .splash-anim-funkyCircle {
+            animation: RotateFunkCircle1 $splash-anim-funky-length/3 linear infinite, DashFunkCircle1 $splash-anim-funky-length ease-in-out infinite;
+            transform-origin: 50% 50%;
+          }
+
+          .splash-anim-funkyCircle2 {
+            animation: RotateFunkCircle2 $splash-anim-funky-length/2 linear infinite, DashFunkCircle2 $splash-anim-funky-length ease-in-out infinite;
+            transform-origin: 50% 50%;
+          }
+
+          .splash-anim-funkyCircle3 {
+            animation: RotateFunkCircle3 $splash-anim-funky-length linear infinite, DashFunkCircle3 $splash-anim-funky-length ease-in-out infinite;
+            transform-origin: 50% 50%;
+          }
+
+          @mixin RotateFunkCircle($rotation-offset, $direction) {
+            0% {
+              transform: rotate($rotation-offset + $direction*0deg);
+            }
+
+            100% {
+              transform: rotate($rotation-offset + $direction*360deg);
+            }
+          }
+
+          @mixin DashFunkCircle($base-dash, $dasharray-mod) {
+            0% {
+              stroke-dasharray: $base-dash;
+            }
+
+            33% {
+              stroke-dasharray: $base-dash + $dasharray-mod;
+            }
+
+            66% {
+              stroke-dasharray: $base-dash - $dasharray-mod;
+            }
+
+            100% {
+              stroke-dasharray: $base-dash;
+            }
+          }
+
+          @keyframes RotateFunkCircle1 {
+            @include RotateFunkCircle(-90, 1);
+          }
+
+          @keyframes RotateFunkCircle2 {
+            @include RotateFunkCircle(0, -1);
+          }
+
+          @keyframes RotateFunkCircle3 {
+            @include RotateFunkCircle(90, 1);
+          }
+
+          @keyframes DashFunkCircle1 {
+            @include DashFunkCircle(1085, 0);
+          }
+
+          @keyframes DashFunkCircle2 {
+            @include DashFunkCircle(789, 40);
+          }
+
+          @keyframes DashFunkCircle3 {
+            @include DashFunkCircle(990, 60);
+          }
+
+          &.splash-anim-leftline {
+            margin-left: -195px;
+            overflow: hidden;
+          }
+
+          &.splash-anim-rightline {
+            margin-left: 199px;
+            overflow: hidden;
+          }
+
+          &.splash-anim-bgSquares {
+            opacity: 0.3;
+            transition: all 0.2s ease-in-out;
+
+            max-width: 100%;
+          }
+
+        }
+      }
+
+      .splash-profile-details {
+        transform: scale(1) translateY(30px);
+        transition: all 0.2s ease-in-out;
+
+        @media (max-width: $breakpoint-med) {
+          transform: scale(0.9) translateY(30px);
+        }
+
+        @media (max-width: $breakpoint-small) {
+          transform: scale(0.8) translateY(30px);
+        }
+
+        @media (max-width: $breakpoint-tiny) {
+          transform: scale(0.7) translateY(30px);
+        }
+      }
+
+      .splash-name {
+        h1 {
+          text-transform: uppercase;
+          font-size: 40px;
+          font-weight: 700;
+          margin-bottom: 0;
+          margin-top: 0px;
+          color: $brand-secondary;
+          transform: scale(1);
+
+          transition: all 0.2s ease-in-out;
+          white-space: nowrap;
+        }
+      }
+
+      .splash-tagline {
+        background-color: $brand-primary;
+        padding: 8px 25px 6px 25px;
+        transition: all 0.2s ease-in-out;
+        transform: scale(1);
+
+        span {
+          text-transform: uppercase;
+          font-weight: 900;
+          font-size: 14px;
+          letter-spacing: 2.5px;
+          font-family: $font-big;
+
+          color: #14120b;
+          transition: all 0.2s ease-in-out;
+          white-space: nowrap;
+        }
+      }
+
+    }
+  }
+
+  .splash-left-lower {
+    display: flex;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    @media (max-width: $breakpoint-med) {
+      margin-bottom: 30px;
+    }
+
+    .splash-lower-scrollicon {
+      opacity: 1;
+      transition: 0.3s ease-in-out;
+      position: relative;
+
+      svg {
+        path {
+          position: absolute;
+          margin-top: 0;
+          transition: 0.2s ease-in-out;
+        }
+      }
+
+
+      &.splash-nav-aboutme {
+        svg path {
+          stroke: $color-about;
+        }
+      }
+
+      &.splash-nav-skills {
+        svg path {
+          stroke: $color-skills;
+        }
+      }
+
+      &.splash-nav-experience {
+        svg path {
+          stroke: $color-experience;
+        }
+      }
+
+      &.splash-nav-projects {
+        svg path {
+          stroke: $color-projects;
+        }
+      }
+
+      &.splash-nav-contact {
+        svg path {
+          stroke: $color-contact;
+        }
+      }
+
+    }
+  }
+
+  .splash-left-sidebar-nav {
+    height: 0;
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+
+    margin-top: 4vh;
+    visibility: hidden;
+
+    @media (max-width: $breakpoint-med) {
+      display: none;
+    }
+
+    
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+  }
+}

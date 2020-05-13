@@ -1,6 +1,9 @@
 // Responsive breakpoints
+$breakpoint-tiny: 375px;
 $breakpoint-small: 768px;
-$breakpoint-med: 1224px;
+$breakpoint-med: 1024px;
+$breakpoint-large: 1200px;
+$breakpoint-huge: 1800px;
 
 // Colors
 $brand-primary: #ff9b0b;
@@ -8,8 +11,12 @@ $brand-secondary: #ffb64d;
 
 $color-about: #ff5539;
 $color-skills: #56ccff;
-$color-experience: #32ff67;
+$color-experience: #28e458;
 $color-projects: #ff4bfd;
 $color-contact: #ff9b0b;
+
+$color-dark-bg: #100f0b;
+
+$color-skills-dark: #0b1317;
 
 //#ffc80b

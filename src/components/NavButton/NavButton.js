@@ -3,11 +3,16 @@ import React from 'react';
 import {NavButtonIconAbout, NavButtonIconSkills, NavButtonIconExperience, NavButtonIconProjects, NavButtonIconContact} from "../../images/NavButtonIcons/NavButtonIcons.js";
 
 class NavButton extends React.Component {
+
+  constructor(props) {
+    super(props);
+  }
+
   render() {
     return (
 
       <li className={"splash-right-nav-element splash-nav-" + this.props.id}>
-        <a className="splash-nav-button" href="#" data-topic={this.props.id}>
+        <a className="splash-nav-button" href="#" data-topic={this.props.id}  onClick={(e) => this.props.splash.scrollToTopic(this.props.id, e)}>
           
           <div className="splash-nav-icon">
 
