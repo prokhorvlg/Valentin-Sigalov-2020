@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/Valentin-Sigalov-2020/static/css/main.2a7043a8.chunk.css",
-    "main.js": "/Valentin-Sigalov-2020/static/js/main.42a6a8d6.chunk.js",
-    "main.js.map": "/Valentin-Sigalov-2020/static/js/main.42a6a8d6.chunk.js.map",
+    "main.css": "/Valentin-Sigalov-2020/static/css/main.eab95d9f.chunk.css",
+    "main.js": "/Valentin-Sigalov-2020/static/js/main.ebed24de.chunk.js",
+    "main.js.map": "/Valentin-Sigalov-2020/static/js/main.ebed24de.chunk.js.map",
     "runtime-main.js": "/Valentin-Sigalov-2020/static/js/runtime-main.431f4f87.js",
     "runtime-main.js.map": "/Valentin-Sigalov-2020/static/js/runtime-main.431f4f87.js.map",
     "static/css/2.d3e54801.chunk.css": "/Valentin-Sigalov-2020/static/css/2.d3e54801.chunk.css",
-    "static/js/2.79f9fb49.chunk.js": "/Valentin-Sigalov-2020/static/js/2.79f9fb49.chunk.js",
-    "static/js/2.79f9fb49.chunk.js.map": "/Valentin-Sigalov-2020/static/js/2.79f9fb49.chunk.js.map",
+    "static/js/2.31bfd73e.chunk.js": "/Valentin-Sigalov-2020/static/js/2.31bfd73e.chunk.js",
+    "static/js/2.31bfd73e.chunk.js.map": "/Valentin-Sigalov-2020/static/js/2.31bfd73e.chunk.js.map",
     "index.html": "/Valentin-Sigalov-2020/index.html",
-    "precache-manifest.eeef064ce1fe8d9969778a95056088ec.js": "/Valentin-Sigalov-2020/precache-manifest.eeef064ce1fe8d9969778a95056088ec.js",
+    "precache-manifest.37e68c3c80d4cd4201e240ef22d51519.js": "/Valentin-Sigalov-2020/precache-manifest.37e68c3c80d4cd4201e240ef22d51519.js",
     "service-worker.js": "/Valentin-Sigalov-2020/service-worker.js",
     "static/css/2.d3e54801.chunk.css.map": "/Valentin-Sigalov-2020/static/css/2.d3e54801.chunk.css.map",
-    "static/css/main.2a7043a8.chunk.css.map": "/Valentin-Sigalov-2020/static/css/main.2a7043a8.chunk.css.map",
-    "static/js/2.79f9fb49.chunk.js.LICENSE.txt": "/Valentin-Sigalov-2020/static/js/2.79f9fb49.chunk.js.LICENSE.txt",
+    "static/css/main.eab95d9f.chunk.css.map": "/Valentin-Sigalov-2020/static/css/main.eab95d9f.chunk.css.map",
+    "static/js/2.31bfd73e.chunk.js.LICENSE.txt": "/Valentin-Sigalov-2020/static/js/2.31bfd73e.chunk.js.LICENSE.txt",
     "static/media/2020PS-resume-pic.png": "/Valentin-Sigalov-2020/static/media/2020PS-resume-pic.790e4c5e.png",
     "static/media/compiler.scss": "/Valentin-Sigalov-2020/static/media/2020PS-splash-bg.0d2a0fa1.png",
+    "static/media/ContactHello.png": "/Valentin-Sigalov-2020/static/media/ContactHello.a74c5129.png",
     "static/media/DevelopmentSkill.png": "/Valentin-Sigalov-2020/static/media/DevelopmentSkill.af4107ef.png",
     "static/media/GalAndMe.png": "/Valentin-Sigalov-2020/static/media/GalAndMe.fb29930d.png",
     "static/media/LyddieJones.png": "/Valentin-Sigalov-2020/static/media/LyddieJones.36b0e1ad.png",
@@ -30,8 +31,8 @@
   "entrypoints": [
     "static/js/runtime-main.431f4f87.js",
     "static/css/2.d3e54801.chunk.css",
-    "static/js/2.79f9fb49.chunk.js",
-    "static/css/main.2a7043a8.chunk.css",
-    "static/js/main.42a6a8d6.chunk.js"
+    "static/js/2.31bfd73e.chunk.js",
+    "static/css/main.eab95d9f.chunk.css",
+    "static/js/main.ebed24de.chunk.js"
   ]
 }
