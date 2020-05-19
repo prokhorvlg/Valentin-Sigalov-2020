@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f5dfe97048d9f9710594361090c6714d",
+    "revision": "44720b708be41e3d83b73e1cba58c55b",
     "url": "/Valentin-Sigalov-2020/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Valentin-Sigalov-2020/static/css/2.d3e54801.chunk.css"
   },
   {
-    "revision": "5951aef296a3305e2ae3",
-    "url": "/Valentin-Sigalov-2020/static/css/main.f21d7c55.chunk.css"
+    "revision": "b44c9341b2c80e52db5f",
+    "url": "/Valentin-Sigalov-2020/static/css/main.1c60cb38.chunk.css"
   },
   {
     "revision": "5f8352a68970096bf474",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Valentin-Sigalov-2020/static/js/2.37bf1f9b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5951aef296a3305e2ae3",
-    "url": "/Valentin-Sigalov-2020/static/js/main.47531aad.chunk.js"
+    "revision": "b44c9341b2c80e52db5f",
+    "url": "/Valentin-Sigalov-2020/static/js/main.d01c4f8a.chunk.js"
   },
   {
     "revision": "accf8f3ba49673acabbb",
@@ -60,8 +60,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Valentin-Sigalov-2020/static/media/RemnantMockup.7c138bb0.png"
   },
   {
-    "revision": "b9992550be5c97ec0108832250fcadbe",
-    "url": "/Valentin-Sigalov-2020/static/media/creative-tools-skills-icon.b9992550.png"
+    "revision": "4426c40f949bad343eb4dbcb25f6e858",
+    "url": "/Valentin-Sigalov-2020/static/media/creative-tools-skills-icon.4426c40f.png"
   },
   {
     "revision": "6a5e307c7b8407d1e07efc3734da745a",
@@ -84,11 +84,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Valentin-Sigalov-2020/static/media/experience-img-windber.7b5e0f4e.png"
   },
   {
-    "revision": "7cdf06bc631eea3ad90f24f830d620f0",
-    "url": "/Valentin-Sigalov-2020/static/media/general-programming-skills-icon.7cdf06bc.png"
+    "revision": "62ff26e430786411014adff55a317956",
+    "url": "/Valentin-Sigalov-2020/static/media/general-programming-skills-icon.62ff26e4.png"
   },
   {
-    "revision": "bbaa6379177d8879062d2e12d26e20e8",
-    "url": "/Valentin-Sigalov-2020/static/media/web-technologies-skills-icon.bbaa6379.png"
+    "revision": "14c40246230896b2da415698ac0c43a2",
+    "url": "/Valentin-Sigalov-2020/static/media/web-technologies-skills-icon.14c40246.png"
   }
 ]);
