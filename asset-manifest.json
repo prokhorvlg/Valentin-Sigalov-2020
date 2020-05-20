@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Valentin-Sigalov-2020/static/css/main.6185c729.chunk.css",
-    "main.js": "/Valentin-Sigalov-2020/static/js/main.b0b792da.chunk.js",
-    "main.js.map": "/Valentin-Sigalov-2020/static/js/main.b0b792da.chunk.js.map",
+    "main.css": "/Valentin-Sigalov-2020/static/css/main.bfac663c.chunk.css",
+    "main.js": "/Valentin-Sigalov-2020/static/js/main.4138597a.chunk.js",
+    "main.js.map": "/Valentin-Sigalov-2020/static/js/main.4138597a.chunk.js.map",
     "runtime-main.js": "/Valentin-Sigalov-2020/static/js/runtime-main.431f4f87.js",
     "runtime-main.js.map": "/Valentin-Sigalov-2020/static/js/runtime-main.431f4f87.js.map",
     "static/css/2.d3e54801.chunk.css": "/Valentin-Sigalov-2020/static/css/2.d3e54801.chunk.css",
     "static/js/2.37bf1f9b.chunk.js": "/Valentin-Sigalov-2020/static/js/2.37bf1f9b.chunk.js",
     "static/js/2.37bf1f9b.chunk.js.map": "/Valentin-Sigalov-2020/static/js/2.37bf1f9b.chunk.js.map",
     "index.html": "/Valentin-Sigalov-2020/index.html",
-    "precache-manifest.c3c90f100f3f2b027a679a5715e7a960.js": "/Valentin-Sigalov-2020/precache-manifest.c3c90f100f3f2b027a679a5715e7a960.js",
+    "precache-manifest.87ffc8db88ee6126875f20eb4109d825.js": "/Valentin-Sigalov-2020/precache-manifest.87ffc8db88ee6126875f20eb4109d825.js",
     "service-worker.js": "/Valentin-Sigalov-2020/service-worker.js",
     "static/css/2.d3e54801.chunk.css.map": "/Valentin-Sigalov-2020/static/css/2.d3e54801.chunk.css.map",
-    "static/css/main.6185c729.chunk.css.map": "/Valentin-Sigalov-2020/static/css/main.6185c729.chunk.css.map",
+    "static/css/main.bfac663c.chunk.css.map": "/Valentin-Sigalov-2020/static/css/main.bfac663c.chunk.css.map",
     "static/js/2.37bf1f9b.chunk.js.LICENSE.txt": "/Valentin-Sigalov-2020/static/js/2.37bf1f9b.chunk.js.LICENSE.txt",
     "static/media/2020PS-resume-pic.png": "/Valentin-Sigalov-2020/static/media/2020PS-resume-pic.790e4c5e.png",
     "static/media/compiler.scss": "/Valentin-Sigalov-2020/static/media/2020PS-splash-bg.0d2a0fa1.png",
@@ -23,19 +23,21 @@
     "static/media/RandyCat.png": "/Valentin-Sigalov-2020/static/media/RandyCat.7d13449c.png",
     "static/media/RemnantMockup.png": "/Valentin-Sigalov-2020/static/media/RemnantMockup.7c138bb0.png",
     "static/media/creative-tools-skills-icon.png": "/Valentin-Sigalov-2020/static/media/creative-tools-skills-icon.4426c40f.png",
+    "static/media/education-icon-exp.png": "/Valentin-Sigalov-2020/static/media/education-icon-exp.a892a9a3.png",
     "static/media/experience-img-central.png": "/Valentin-Sigalov-2020/static/media/experience-img-central.6a5e307c.png",
     "static/media/experience-img-drexel.png": "/Valentin-Sigalov-2020/static/media/experience-img-drexel.4b73d588.png",
     "static/media/experience-img-jpm.png": "/Valentin-Sigalov-2020/static/media/experience-img-jpm.e6d4c08b.png",
     "static/media/experience-img-shm.png": "/Valentin-Sigalov-2020/static/media/experience-img-shm.fa85ee07.png",
     "static/media/experience-img-windber.png": "/Valentin-Sigalov-2020/static/media/experience-img-windber.7b5e0f4e.png",
     "static/media/general-programming-skills-icon.png": "/Valentin-Sigalov-2020/static/media/general-programming-skills-icon.77b13406.png",
+    "static/media/professional-icon-exp.png": "/Valentin-Sigalov-2020/static/media/professional-icon-exp.2d69c32c.png",
     "static/media/web-technologies-skills-icon.png": "/Valentin-Sigalov-2020/static/media/web-technologies-skills-icon.14c40246.png"
   },
   "entrypoints": [
     "static/js/runtime-main.431f4f87.js",
     "static/css/2.d3e54801.chunk.css",
     "static/js/2.37bf1f9b.chunk.js",
-    "static/css/main.6185c729.chunk.css",
-    "static/js/main.b0b792da.chunk.js"
+    "static/css/main.bfac663c.chunk.css",
+    "static/js/main.4138597a.chunk.js"
   ]
 }

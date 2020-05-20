@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "37cc6fe2e2286727c04571bde925a4c4",
+    "revision": "0127a0977b1d2af0690d99778bb657ca",
     "url": "/Valentin-Sigalov-2020/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Valentin-Sigalov-2020/static/css/2.d3e54801.chunk.css"
   },
   {
-    "revision": "5fa33f64cc88bd09f6aa",
-    "url": "/Valentin-Sigalov-2020/static/css/main.6185c729.chunk.css"
+    "revision": "776520d22e40bab0897a",
+    "url": "/Valentin-Sigalov-2020/static/css/main.bfac663c.chunk.css"
   },
   {
     "revision": "5f8352a68970096bf474",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Valentin-Sigalov-2020/static/js/2.37bf1f9b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5fa33f64cc88bd09f6aa",
-    "url": "/Valentin-Sigalov-2020/static/js/main.b0b792da.chunk.js"
+    "revision": "776520d22e40bab0897a",
+    "url": "/Valentin-Sigalov-2020/static/js/main.4138597a.chunk.js"
   },
   {
     "revision": "accf8f3ba49673acabbb",
@@ -64,6 +64,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Valentin-Sigalov-2020/static/media/creative-tools-skills-icon.4426c40f.png"
   },
   {
+    "revision": "a892a9a3f3b50c984d20625369b7eeca",
+    "url": "/Valentin-Sigalov-2020/static/media/education-icon-exp.a892a9a3.png"
+  },
+  {
     "revision": "6a5e307c7b8407d1e07efc3734da745a",
     "url": "/Valentin-Sigalov-2020/static/media/experience-img-central.6a5e307c.png"
   },
@@ -86,6 +90,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "77b13406020ab181fb23e4fe7d0f7606",
     "url": "/Valentin-Sigalov-2020/static/media/general-programming-skills-icon.77b13406.png"
+  },
+  {
+    "revision": "2d69c32c747e7323809f1f275c5ee59e",
+    "url": "/Valentin-Sigalov-2020/static/media/professional-icon-exp.2d69c32c.png"
   },
   {
     "revision": "14c40246230896b2da415698ac0c43a2",
