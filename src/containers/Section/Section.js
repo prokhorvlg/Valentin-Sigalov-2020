@@ -215,7 +215,7 @@ class Section extends Component {
                       {this.content[this.props.id].links.map((item) => {
                         return (
                           <li key={item.id}>
-                            <a href="#" id={item.id}>{item.text}</a>
+                            <a href="#" data-topic={item.id} onClick={(e) => this.scrollToElement(item.id, e)}>{item.text}</a>
                           </li>
                         )
                       })}
@@ -229,6 +229,12 @@ class Section extends Component {
           </div>
       </Waypoint>
     );
+  }
+
+  scrollToElement(targetElement, e) {
+    e.preventDefault();
+    $(window).scrollTo('#' + targetElement, 200);    
+    $(window).blur();
   }
 }
 

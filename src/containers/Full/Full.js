@@ -38,6 +38,8 @@ class Full extends React.Component {
   }
 
   componentDidMount() {
+    //document.querySelector('body').style.zoom = `${1 / window.devicePixelRatio * 100}%`;
+
     this.sidebarNav = $('.splash-left-sidebar-nav li');
     this.splashLowerBar = $('.splash-lower-bar');
 

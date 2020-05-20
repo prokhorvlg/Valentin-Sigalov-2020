@@ -3,6 +3,7 @@ body {
   width: 100%;
   overflow-x: hidden;
   margin: 0;
+  font-size: 1rem;
 }
 
 img {
@@ -31,3 +32,7 @@ img {
     display: none;
   }
 }
+
+@media only screen and( min-resolution: 120dpi ) {
+    
+} 

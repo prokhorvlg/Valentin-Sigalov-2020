@@ -282,6 +282,12 @@ class Splash extends React.Component {
   scrollToTopic(topic, e) {
     e.preventDefault();
     this.ScrollSidebarAnimation.current.scrollToElement(topic);
+
+    var splash = this;
+    // Mobile animation. Have to close the nav when clicking.
+    setTimeout(function() {
+      splash.toggleMobileNav();
+    }, 300);
   }
 
   render() {
@@ -626,8 +632,9 @@ class ScrollSidebarAnimation extends React.Component {
   // Checks the scroll height of the document, and runs animation if nessesary.
   checkHeight() {
     var scrollAnimation = this;
-    // If the window is scrolled down...
+    // If this is desktop...
     if (window.innerWidth > BREAKPOINT_MED) {
+      // If the window is scrolled down...
       if ($(window).scrollTop() > 50) {
         if (scrollAnimation.scrollCalledDown === false) {
           scrollAnimation.scrollCalledDown = true;
@@ -648,7 +655,13 @@ class ScrollSidebarAnimation extends React.Component {
     var scrollAnimation = this;
     scrollAnimation.scrollListener = false;
     setTimeout( function(){ scrollAnimation.scrollListener = true; scrollAnimation.checkHeight(); }, 300);
-    $(window).scrollTo('#' + targetElement, scrollAnimation.scrollAnimMilliseconds);
+
+    // If this is desktop...
+    if (window.innerWidth > BREAKPOINT_MED) {
+      $(window).scrollTo('#' + targetElement, scrollAnimation.scrollAnimMilliseconds);
+    } else {
+      $(window).scrollTo('#' + targetElement, scrollAnimation.scrollAnimMilliseconds, {offset: function() { return {top:-15}; }});
+    }
     scrollAnimation.checkHeight();
     
     $(window).blur();

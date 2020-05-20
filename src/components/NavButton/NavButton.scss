@@ -193,12 +193,23 @@ li.splash-right-nav-element {
     }
 
     @media (max-width: $breakpoint-med) {
-      a.splash-nav-button .splash-nav-text {
-        color: white;
-      }
-      a.splash-nav-button svg path {
-        fill: white;
-        stroke: white;
+      a.splash-nav-button {
+        .splash-nav-text {
+          color: white;
+        }
+        .splash-nav-icon svg path {
+          fill: white;
+          stroke: white;
+        }
+        &:active, &:focus, &:hover {
+          .splash-nav-text {
+            color: $color;
+          }
+          .splash-nav-icon svg path {
+            fill: $color;
+            stroke: $color;
+          }
+        }
       }
     }
 

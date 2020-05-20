@@ -17,7 +17,7 @@ class SectionExperience extends Component {
       <div className="section-all-content">
         <div className="section-content">
 
-          <div className="section-content-startheader">
+          <div className="section-content-startheader" id="experience-professional">
             <div className="section-content-startheader-left">
               <div className="section-startheader-square">
                 <div className="section-startheader-highlight"></div>
@@ -140,7 +140,7 @@ class SectionExperience extends Component {
             </div>
           </div>
 
-          <div className="section-content-startheader">
+          <div className="section-content-startheader" id="experience-education">
             <div className="section-content-startheader-left">
               <div className="section-startheader-square">
                 <div className="section-startheader-highlight"></div>
