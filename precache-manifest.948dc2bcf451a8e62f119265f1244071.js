@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "44720b708be41e3d83b73e1cba58c55b",
+    "revision": "69b98067e0364154159302ed671f03af",
     "url": "/Valentin-Sigalov-2020/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Valentin-Sigalov-2020/static/css/2.d3e54801.chunk.css"
   },
   {
-    "revision": "b44c9341b2c80e52db5f",
-    "url": "/Valentin-Sigalov-2020/static/css/main.1c60cb38.chunk.css"
+    "revision": "9dcdcd8cf227fcbdefab",
+    "url": "/Valentin-Sigalov-2020/static/css/main.f2bcf4a8.chunk.css"
   },
   {
     "revision": "5f8352a68970096bf474",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Valentin-Sigalov-2020/static/js/2.37bf1f9b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b44c9341b2c80e52db5f",
-    "url": "/Valentin-Sigalov-2020/static/js/main.d01c4f8a.chunk.js"
+    "revision": "9dcdcd8cf227fcbdefab",
+    "url": "/Valentin-Sigalov-2020/static/js/main.d6520eb0.chunk.js"
   },
   {
     "revision": "accf8f3ba49673acabbb",
@@ -84,8 +84,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Valentin-Sigalov-2020/static/media/experience-img-windber.7b5e0f4e.png"
   },
   {
-    "revision": "62ff26e430786411014adff55a317956",
-    "url": "/Valentin-Sigalov-2020/static/media/general-programming-skills-icon.62ff26e4.png"
+    "revision": "77b13406020ab181fb23e4fe7d0f7606",
+    "url": "/Valentin-Sigalov-2020/static/media/general-programming-skills-icon.77b13406.png"
   },
   {
     "revision": "14c40246230896b2da415698ac0c43a2",
