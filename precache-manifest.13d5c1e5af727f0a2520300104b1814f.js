@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bfb2d9d49887b7ca808c1de7d4034b0e",
+    "revision": "ee0a3adc8fb5e3717797c275cc2628c3",
     "url": "/index.html"
   },
   {
-    "revision": "342e4a81b046732e53b1",
+    "revision": "2d305d2041fafec8a9ca",
     "url": "/static/css/2.d3e54801.chunk.css"
   },
   {
-    "revision": "eefaee439eadeb4310e3",
-    "url": "/static/css/main.e84a2c60.chunk.css"
+    "revision": "3d018212a7b527ea281d",
+    "url": "/static/css/main.91d0b546.chunk.css"
   },
   {
-    "revision": "342e4a81b046732e53b1",
-    "url": "/static/js/2.51fa0c76.chunk.js"
+    "revision": "2d305d2041fafec8a9ca",
+    "url": "/static/js/2.51554b5d.chunk.js"
   },
   {
     "revision": "b1c48fb50b52ff7e51ea57a4c76b798d",
-    "url": "/static/js/2.51fa0c76.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.51554b5d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "eefaee439eadeb4310e3",
-    "url": "/static/js/main.8a8f477d.chunk.js"
+    "revision": "3d018212a7b527ea281d",
+    "url": "/static/js/main.7651cbbc.chunk.js"
   },
   {
     "revision": "443a8728f9f7323b043e",
@@ -92,12 +92,52 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/general-programming-skills-icon.77b13406.png"
   },
   {
+    "revision": "3ed5a4773cccc9716bbf8d5fc6e383c5",
+    "url": "/static/media/p-endpoint.3ed5a477.png"
+  },
+  {
+    "revision": "1c0218d51534d5541510832e59214ab2",
+    "url": "/static/media/p-jpmc-careers.1c0218d5.png"
+  },
+  {
+    "revision": "eb78406b405c3e82b1ab247cb4650592",
+    "url": "/static/media/p-jthello.eb78406b.png"
+  },
+  {
+    "revision": "8792f482dbd55c027a376a139da63b92",
+    "url": "/static/media/p-morning-artifice.8792f482.png"
+  },
+  {
+    "revision": "1718f8bb30576a8c289dddccf153ccb5",
+    "url": "/static/media/p-places-demo.1718f8bb.png"
+  },
+  {
+    "revision": "be164561575cc140febe0f38d38f8c36",
+    "url": "/static/media/p-remnant.be164561.png"
+  },
+  {
+    "revision": "80f1e8136217cb9222823c9ba49b7d6f",
+    "url": "/static/media/p-unturned-stones.80f1e813.png"
+  },
+  {
+    "revision": "87c7043656672924c3f0dca0d34ac252",
+    "url": "/static/media/p-valentin-sigalov-2017.87c70436.png"
+  },
+  {
+    "revision": "6c30f76be7385f10722dd52f784bb72e",
+    "url": "/static/media/p-valentin-sigalov-2020.6c30f76b.png"
+  },
+  {
     "revision": "2d69c32c747e7323809f1f275c5ee59e",
     "url": "/static/media/professional-icon-exp.2d69c32c.png"
   },
   {
     "revision": "98cbf8ac2bb1c2ed6db705888fcac1cc",
     "url": "/static/media/projects-art-image.98cbf8ac.png"
+  },
+  {
+    "revision": "fbe061ce5b752c2b758a5da11de96808",
+    "url": "/static/media/projects-dev-image.fbe061ce.png"
   },
   {
     "revision": "14c40246230896b2da415698ac0c43a2",
