@@ -166,6 +166,12 @@ class Splash extends React.Component {
     }
   }
 
+  toggleMobileNavClose() {
+    // Close the mobile nav
+    this.setState({ mobileNavOpen: false });
+    this.animationCloseMobileNav();
+  }
+
   animationMobileNavStopTimeouts() {
     clearTimeout(this.mobileTimeouts.stage1);
     clearTimeout(this.mobileTimeouts.stage2);
@@ -286,7 +292,7 @@ class Splash extends React.Component {
     var splash = this;
     // Mobile animation. Have to close the nav when clicking.
     setTimeout(function() {
-      splash.toggleMobileNav();
+      splash.toggleMobileNavClose();
     }, 300);
   }
 

@@ -425,7 +425,7 @@ class SectionSkills extends Component {
                  width="28px" height="28px">
                 <path fill-rule="evenodd"  fill="rgb(25, 23, 20)"
                  d="M14.000,28.000 C7.299,28.000 1.705,23.289 0.330,17.000 L10.000,17.000 L10.000,21.000 L19.000,14.000 L10.000,7.000 L10.000,11.000 L0.330,11.000 C1.705,4.711 7.299,-0.000 14.000,-0.000 C21.732,-0.000 28.000,6.268 28.000,14.000 C28.000,21.732 21.732,28.000 14.000,28.000 Z"/>
-                </svg>
+                </svg> 
                 <h4>Agile</h4>
               </div>
               <div className="skillsblock-inner-bottom">
@@ -463,6 +463,135 @@ class SectionSkills extends Component {
                 <h3>Creative Tools</h3>                
               </div>
               <div className="section-startheader-right-line"></div>
+            </div>
+          </div>
+
+          <div className="section-content-skillsblock">
+            <div className="skillsblock-inner">
+              <div className="skillsblock-inner-top">
+                <svg 
+                 width="33px" height="28px">
+                  <path fill-rule="evenodd"  fill="rgb(0, 0, 0)"
+                 d="M11.433,-0.000 L0.000,28.000 L18.449,28.000 L16.370,22.606 L11.173,22.606 L16.110,10.789 L23.906,28.000 L33.000,28.000 L20.787,-0.000 L11.433,-0.000 Z"/>
+                </svg>
+                <h4>Adobe Creative Suite</h4>
+              </div>
+              <div className="skillsblock-inner-bottom">
+                <div className="skillsblock-bottom-content">
+                  <p>While my most used creative program is Photoshop (by far - I even use it for most vectoring), I am familiar with the other major Adobe applications.</p>
+                </div>
+                <div className="skillsblock-bottom-chart">
+
+                  <div className="skillsblock-chart-row g-photoshop">
+                    <div className="skillsblock-row-title">
+                      <p>Photoshop</p>
+                    </div>
+                    <div className="skillsblock-row-amount">
+                      <div className="skillsblock-row-amount-fill" style={{width: '95%'}}></div>
+                    </div>
+                  </div>
+
+                  <div className="skillsblock-chart-row g-creative">
+                    <div className="skillsblock-row-title">
+                      <p>Illustrator</p>
+                    </div>
+                    <div className="skillsblock-row-amount">
+                      <div className="skillsblock-row-amount-fill" style={{width: '68%'}}></div>
+                    </div>
+                  </div>
+
+                  <div className="skillsblock-chart-row g-creative">
+                    <div className="skillsblock-row-title">
+                      <p>Premiere Pro</p>
+                    </div>
+                    <div className="skillsblock-row-amount">
+                      <div className="skillsblock-row-amount-fill" style={{width: '42%'}}></div>
+                    </div>
+                  </div>
+
+                  <div className="skillsblock-chart-row g-creative">
+                    <div className="skillsblock-row-title">
+                      <p>After Effects</p>
+                    </div>
+                    <div className="skillsblock-row-amount">
+                      <div className="skillsblock-row-amount-fill" style={{width: '38%'}}></div>
+                    </div>
+                  </div>
+
+                  <div className="skillsblock-chart-row g-creative">
+                    <div className="skillsblock-row-title">
+                      <p>InDesign</p>
+                    </div>
+                    <div className="skillsblock-row-amount">
+                      <div className="skillsblock-row-amount-fill" style={{width: '15%'}}></div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="section-content-skillsblock twin-block">
+            <div className="skillsblock-inner">
+            <div className="skillsblock-inner-top">
+            <svg 
+             width="31px" height="28px">
+              <path fill-rule="evenodd"  fill="rgb(25, 23, 20)"
+               d="M30.653,6.385 L18.203,19.163 L10.246,21.282 L12.307,13.135 L24.758,0.358 L27.454,0.012 L30.991,3.629 L30.653,6.385 ZM15.183,13.823 L13.718,16.527 L14.897,17.733 L17.541,16.234 L15.183,13.823 Z"/>
+              <path fill-rule="evenodd"  fill="rgb(25, 23, 20)"
+             d="M20.731,6.741 L20.796,6.741 L20.796,6.855 L20.731,6.741 ZM11.079,11.144 L4.326,11.144 L4.326,23.597 L16.470,23.597 L16.470,16.733 L16.607,16.800 L20.796,13.269 L20.796,28.000 L-0.000,28.000 L-0.000,6.741 L13.626,6.741 L11.079,11.144 Z"/>
+            </svg>
+                <h4>Sketching</h4>
+              </div>
+              <div className="skillsblock-inner-bottom">
+                <div className="skillsblock-bottom-chart">
+
+                  <div className="skillsblock-chart-row g-procreate">
+                    <div className="skillsblock-row-title">
+                      <p>Procreate</p>
+                    </div>
+                    <div className="skillsblock-row-amount">
+                      <div className="skillsblock-row-amount-fill" style={{width: '75%'}}></div>
+                    </div>
+                  </div>
+
+                  <div className="skillsblock-chart-row g-creative">
+                    <div className="skillsblock-row-title">
+                      <p>Sketchbook</p>
+                    </div>
+                    <div className="skillsblock-row-amount">
+                      <div className="skillsblock-row-amount-fill" style={{width: '55%'}}></div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+            <div className="skillsblock-inner">
+            <div className="skillsblock-inner-top">
+                <svg 
+                 width="29px" height="32px">
+                  <path fill-rule="evenodd"  fill="rgb(25, 23, 20)"
+                 d="M16.836,31.999 L16.836,17.727 L28.998,10.783 L28.998,25.006 L16.836,31.999 ZM2.649,6.755 L14.499,-0.003 L26.471,6.880 L14.520,13.955 L2.649,6.755 ZM12.155,17.336 L12.155,31.995 L-0.000,25.006 L-0.000,10.325 L12.155,17.336 Z"/>
+                </svg>
+                <h4>3D</h4>
+              </div>
+              <div className="skillsblock-inner-bottom">
+                <div className="skillsblock-bottom-chart">
+
+                  <div className="skillsblock-chart-row g-creative">
+                    <div className="skillsblock-row-title">
+                      <p>Blender</p>
+                    </div>
+                    <div className="skillsblock-row-amount">
+                      <div className="skillsblock-row-amount-fill" style={{width: '58%'}}></div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
             </div>
           </div>
 

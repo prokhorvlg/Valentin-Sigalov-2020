@@ -91,12 +91,12 @@ class SectionAboutMe extends Component {
             <div className="segment-inner-image-container">
                 <div className="segment-inner-floaty segment-inner-floaty-1"></div>
                 <div className="segment-inner-floaty segment-inner-floaty-2"><svg
- width="35.5px" height="36.5px">
-<path fillRule="evenodd"  stroke="rgb(86, 204, 255)" strokeWidth="3px" strokeLinecap="round" strokeLinejoin="miter" fill="none"
- d="M16.500,3.500 L16.500,31.500 "/>
-<path fillRule="evenodd"  stroke="rgb(86, 204, 255)" strokeWidth="3px" strokeLinecap="round" strokeLinejoin="miter" fill="none"
- d="M31.000,18.000 L3.000,18.000 "/>
-</svg></div>
+                 width="35.5px" height="36.5px">
+                <path fillRule="evenodd"  stroke="rgb(86, 204, 255)" strokeWidth="3px" strokeLinecap="round" strokeLinejoin="miter" fill="none"
+                 d="M16.500,3.500 L16.500,31.500 "/>
+                <path fillRule="evenodd"  stroke="rgb(86, 204, 255)" strokeWidth="3px" strokeLinecap="round" strokeLinejoin="miter" fill="none"
+                 d="M31.000,18.000 L3.000,18.000 "/>
+                </svg></div>
                 <img className="segment-inner-image" src={RemnantMockup} alt="A mockup of Remnant" />
               <span>A mockup of Remnant</span>
             </div>

@@ -7,8 +7,8 @@ import WindberLogo from "../../images/experience-img-windber.png";
 import DrexelLogo from "../../images/experience-img-drexel.png";
 import CentralLogo from "../../images/experience-img-central.png";
 
-import ProfessionalIcon from "../../images/professional-icon.png";
-import EducationIcon from "../../images/education-icon.png";
+import ProfessionalIcon from "../../images/ExperienceIcons/professional-icon-exp.png";
+import EducationIcon from "../../images/ExperienceIcons/education-icon-exp.png";
 
 class SectionExperience extends Component {
 

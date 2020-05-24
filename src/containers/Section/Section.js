@@ -78,7 +78,7 @@ class Section extends Component {
         codetexts: [
           "PROGRAMMER",
           "DESIGNER",
-          "ARTIST",
+          "STUDENT",
           "ENGINEER",
           "ARCHITECT",
         ]
@@ -233,7 +233,7 @@ class Section extends Component {
 
   scrollToElement(targetElement, e) {
     e.preventDefault();
-    $(window).scrollTo('#' + targetElement, 200);    
+    $(window).scrollTo('#' + targetElement, 200, {offset: function() { return {top:-15}; }});
     $(window).blur();
   }
 }
