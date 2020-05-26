@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8547f04f6c39bbffd79d8862dc54d3b6",
+    "revision": "b25d00da4ac1deb8e084d98d41f58cdd",
     "url": "/index.html"
   },
   {
-    "revision": "2d305d2041fafec8a9ca",
+    "revision": "a0a119d62c437a52f2f4",
     "url": "/static/css/2.d3e54801.chunk.css"
   },
   {
-    "revision": "981aee9d8ea204c6c62f",
-    "url": "/static/css/main.783702a4.chunk.css"
+    "revision": "5d78263708b9396a7422",
+    "url": "/static/css/main.5a5380de.chunk.css"
   },
   {
-    "revision": "2d305d2041fafec8a9ca",
-    "url": "/static/js/2.51554b5d.chunk.js"
+    "revision": "a0a119d62c437a52f2f4",
+    "url": "/static/js/2.397a08d8.chunk.js"
   },
   {
     "revision": "b1c48fb50b52ff7e51ea57a4c76b798d",
-    "url": "/static/js/2.51554b5d.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.397a08d8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "981aee9d8ea204c6c62f",
-    "url": "/static/js/main.7651cbbc.chunk.js"
+    "revision": "5d78263708b9396a7422",
+    "url": "/static/js/main.22a19ce7.chunk.js"
   },
   {
     "revision": "443a8728f9f7323b043e",
@@ -58,6 +58,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7c138bb07d208212e89c5241cdc04d54",
     "url": "/static/media/RemnantMockup.7c138bb0.png"
+  },
+  {
+    "revision": "c1b1deb985791fb9e2f81bfc9e352348",
+    "url": "/static/media/contactme-icon.c1b1deb9.png"
   },
   {
     "revision": "4426c40f949bad343eb4dbcb25f6e858",
@@ -114,6 +118,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "be164561575cc140febe0f38d38f8c36",
     "url": "/static/media/p-remnant.be164561.png"
+  },
+  {
+    "revision": "e16d66f55a1719faa5e45f7590cc894f",
+    "url": "/static/media/p-tmsbro.e16d66f5.png"
   },
   {
     "revision": "80f1e8136217cb9222823c9ba49b7d6f",

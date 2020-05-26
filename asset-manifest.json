@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.783702a4.chunk.css",
-    "main.js": "/static/js/main.7651cbbc.chunk.js",
-    "main.js.map": "/static/js/main.7651cbbc.chunk.js.map",
+    "main.css": "/static/css/main.5a5380de.chunk.css",
+    "main.js": "/static/js/main.22a19ce7.chunk.js",
+    "main.js.map": "/static/js/main.22a19ce7.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.31b78731.js",
     "runtime-main.js.map": "/static/js/runtime-main.31b78731.js.map",
     "static/css/2.d3e54801.chunk.css": "/static/css/2.d3e54801.chunk.css",
-    "static/js/2.51554b5d.chunk.js": "/static/js/2.51554b5d.chunk.js",
-    "static/js/2.51554b5d.chunk.js.map": "/static/js/2.51554b5d.chunk.js.map",
+    "static/js/2.397a08d8.chunk.js": "/static/js/2.397a08d8.chunk.js",
+    "static/js/2.397a08d8.chunk.js.map": "/static/js/2.397a08d8.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.8030bcaa1afe43536813bd7614607073.js": "/precache-manifest.8030bcaa1afe43536813bd7614607073.js",
+    "precache-manifest.b608e9d0928a30a4c0d6de4489d06ec3.js": "/precache-manifest.b608e9d0928a30a4c0d6de4489d06ec3.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.d3e54801.chunk.css.map": "/static/css/2.d3e54801.chunk.css.map",
-    "static/css/main.783702a4.chunk.css.map": "/static/css/main.783702a4.chunk.css.map",
-    "static/js/2.51554b5d.chunk.js.LICENSE.txt": "/static/js/2.51554b5d.chunk.js.LICENSE.txt",
+    "static/css/main.5a5380de.chunk.css.map": "/static/css/main.5a5380de.chunk.css.map",
+    "static/js/2.397a08d8.chunk.js.LICENSE.txt": "/static/js/2.397a08d8.chunk.js.LICENSE.txt",
     "static/media/2020PS-resume-pic.png": "/static/media/2020PS-resume-pic.790e4c5e.png",
     "static/media/compiler.scss": "/static/media/2020PS-splash-bg.0d2a0fa1.png",
     "static/media/ContactHello.png": "/static/media/ContactHello.a74c5129.png",
@@ -22,6 +22,7 @@
     "static/media/LyddieJones.png": "/static/media/LyddieJones.36b0e1ad.png",
     "static/media/RandyCat.png": "/static/media/RandyCat.7d13449c.png",
     "static/media/RemnantMockup.png": "/static/media/RemnantMockup.7c138bb0.png",
+    "static/media/contactme-icon.png": "/static/media/contactme-icon.c1b1deb9.png",
     "static/media/creative-tools-skills-icon.png": "/static/media/creative-tools-skills-icon.4426c40f.png",
     "static/media/education-icon-exp.png": "/static/media/education-icon-exp.a892a9a3.png",
     "static/media/experience-img-central.png": "/static/media/experience-img-central.6a5e307c.png",
@@ -36,6 +37,7 @@
     "static/media/p-morning-artifice.png": "/static/media/p-morning-artifice.8792f482.png",
     "static/media/p-places-demo.png": "/static/media/p-places-demo.1718f8bb.png",
     "static/media/p-remnant.png": "/static/media/p-remnant.be164561.png",
+    "static/media/p-tmsbro.png": "/static/media/p-tmsbro.e16d66f5.png",
     "static/media/p-unturned-stones.png": "/static/media/p-unturned-stones.80f1e813.png",
     "static/media/p-valentin-sigalov-2017.png": "/static/media/p-valentin-sigalov-2017.87c70436.png",
     "static/media/p-valentin-sigalov-2020.png": "/static/media/p-valentin-sigalov-2020.6c30f76b.png",
@@ -47,8 +49,8 @@
   "entrypoints": [
     "static/js/runtime-main.31b78731.js",
     "static/css/2.d3e54801.chunk.css",
-    "static/js/2.51554b5d.chunk.js",
-    "static/css/main.783702a4.chunk.css",
-    "static/js/main.7651cbbc.chunk.js"
+    "static/js/2.397a08d8.chunk.js",
+    "static/css/main.5a5380de.chunk.css",
+    "static/js/main.22a19ce7.chunk.js"
   ]
 }
