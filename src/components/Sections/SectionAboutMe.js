@@ -53,7 +53,7 @@ class SectionAboutMe extends Component {
 
               <div className="stats-content-entry">
                 <div className="stats-content-title"><span>Age</span></div>
-                <div className="stats-content-data"><span>22</span></div>
+                <div className="stats-content-data"><span>23</span></div>
               </div>
 
               <div className="stats-content-entry">

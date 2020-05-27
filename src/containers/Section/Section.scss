@@ -81,12 +81,14 @@ $section-line-padding-left: 7%;
         bottom: 0;
       }
 
-      &:hover, &:focus {
-        background: $color;
-        color: white;
+      @media(hover: hover) and (pointer: fine) {
+        &:hover, &:focus {
+          background: $color;
+          color: white;
 
-        &::before, &::after {
-          background-color: $color;
+          &::before, &::after {
+            background-color: $color;
+          }
         }
       }
     }
@@ -1897,6 +1899,7 @@ $stats-large-breakpoint: 1400px;
       justify-content: center;
       img {
         max-width: 100%;
+        width: 160px;
       }
       h3 {
         margin: 0;
@@ -2190,7 +2193,8 @@ $stats-large-breakpoint: 1400px;
       display: flex;
       flex-direction: column;
 
-      padding: 30px;
+      padding: 12px;
+      margin: 20px;
       width: 290px;
       max-width: 100%;
 
@@ -2198,9 +2202,17 @@ $stats-large-breakpoint: 1400px;
       user-select: none;
       transition: 0.2s ease-in-out;
 
+      border: 3px solid transparent;
+      border-radius: 10px;
+
+      div {
+        pointer-events: none;
+      }
+
       @media (max-width: $breakpoint-med) {
-        padding-bottom: 20px;
-        padding-top: 20px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        margin: 0;
         width: auto;
       }
 
@@ -2208,25 +2220,30 @@ $stats-large-breakpoint: 1400px;
         display: none !important;
       }
 
-      &:hover, &:focus {
-        background: none;
+      @media(hover: hover) and (pointer: fine) {
+        &:hover, &:focus {
+          background: none;
 
-        .filter-item-image .filter-item-image-wrap img {
-          transform: scale(1.8);
-          //filter: blur(5px);
-        }
-        .filter-item-image .filter-item-image-wrap::after {
-          opacity: 0.2;
+          .filter-item-image .filter-item-image-wrap img {
+            transform: scale(1.8);
+          }
+          .filter-item-body .filter-item-button svg {
+            transform: scale(1.2);
+          }
+          .filter-item-body .filter-item-titles h4 {
+            text-decoration: underline;
+          }
+          .filter-item-image .filter-item-image-wrap::after {
+            opacity: 0.2;
+          }
         }
       }
 
       .filter-item-image {
-        border: 4px solid black;
-        border-radius: 10px;
-        padding: 3px;
+        
         .filter-item-image-wrap {
           overflow: hidden;
-          border-radius: 5px;
+          border-radius: 8px;
           position: relative;
 
           &::after {
@@ -2260,12 +2277,16 @@ $stats-large-breakpoint: 1400px;
         justify-content: space-between;
         margin-top: 10px;
 
+        border: 2px solid transparent;
+        border-radius: 10px;
+
         .filter-item-titles {
           h4 {
             margin: 0;
             font-size: 22px;
             letter-spacing: -0.7px;
             color: black;
+            transition: 0.1s ease-in-out;
             @media (max-width: $breakpoint-med) {
               font-size: 18px;
             }
@@ -2289,15 +2310,15 @@ $stats-large-breakpoint: 1400px;
           justify-content: center;
           align-items: center;
           svg {
-
+            transition: 0.1s ease-in-out;
+            path {
+              transition: 0.1s ease-in-out;
+            }
           }
         }
       }
 
       @mixin projectColor($color, $color-overlay) {
-        .filter-item-image {
-          border-color: $color;
-        }
         .filter-item-button svg path {
           stroke: $color;
         }
@@ -2306,6 +2327,19 @@ $stats-large-breakpoint: 1400px;
         }
         .filter-item-image .filter-item-image-wrap::after {
           background: $color-overlay;
+        }
+        @media(hover: hover) and (pointer: fine) {
+          &:hover, &:focus {
+            border-color: $color;
+          }
+        }
+        @media (max-width: $breakpoint-med) {
+          .filter-item-image {
+            border: 3px solid $color;
+            border-radius: 12px;
+            padding: 2px;
+          }
+          
         }
       }
 
@@ -2338,9 +2372,159 @@ $stats-large-breakpoint: 1400px;
       &.p-jthello {
         @include projectColor(#22d064, #22d064);
       }
+      &.p-tmsbro {
+        @include projectColor(#7ba5d5, #fff);
+      }
 
       
     }
 
+  }
+}
+
+// Projects modal specific
+.ReactModal__Overlay .ReactModal__Content .modal-body {
+  .projects-modal {
+
+    .projects-modal-item {
+      display: none;
+
+      .modal-flavor {
+        font-family: $font-heading;
+        font-weight: 900;
+        font-size: 12px;
+        letter-spacing: 0px;
+        margin-bottom: 18px;
+        text-transform: uppercase;
+        color: white;
+      }
+
+      .modal-image {
+        padding: 3px;
+        border-radius: 10px;
+        border: 3px solid;
+        img {
+          border-radius: 5px;
+          display: block;
+          width: 650px;
+          max-width: 100%;
+        }
+      }
+
+      .modal-title {
+        color: white;
+        margin-top: 30px;
+        margin-bottom: 5px;
+        letter-spacing: -0.5px;
+        //font-size: 28px;
+      }
+
+      .modal-tags {
+        margin: 0;
+        margin-top: 4px;
+        margin-bottom: 30px;
+        font-family: $font-heading;
+        font-size: 16px;
+        font-weight: 700;
+        @media (max-width: $breakpoint-med) {
+          font-size: 12px;
+          margin-top: 3px;
+        }
+      }
+
+      h5 {
+        text-transform: uppercase;
+        font-size: 16px;
+        margin-bottom: 0px;
+      }
+
+      p {
+        color: white;
+        font-size: 14px;
+        max-width: 550px;
+        margin-top: 6px;
+      }
+
+      .modal-visit {
+        text-align: center;
+        a {
+          border: 3px solid;
+          padding: 12px 70px;
+          margin: 20px auto;
+
+          font-family: $font-heading;
+          font-weight: 700;
+          display: inline-block;
+
+          font-size: 16px;
+          text-decoration: none;
+          }
+      }
+
+    }
+  }
+
+  @mixin projectColorModal($color) {
+
+    .modal-close {
+      button {
+        border-color: $color;
+        .burger .burger-lines::before, .burger .burger-lines::after {
+            background-color: $color;
+          }
+      }
+    }
+
+    .projects-modal {
+      .projects-modal-item {
+        .modal-flavor span.highlight, h5 { 
+          color: $color;
+        }
+        .modal-image {
+          border-color: $color;
+        }
+        .modal-tags {
+          color: $color;
+        }
+        .modal-visit a {
+          border-color: $color;
+          color: $color;
+        }
+      }
+    }
+
+  }
+
+  &.p-vs-2020 {
+    @include projectColorModal(#ff9a0a);
+  }
+  &.p-morning-artifice {
+    @include projectColorModal(#f0f);
+  }
+  &.p-jpmc-careers {
+    @include projectColorModal(#2c9ff3);
+  }
+  &.p-unts-2018 {
+    @include projectColorModal(#777);
+  }
+  &.p-vs-2017 {
+    @include projectColorModal(#2ab5e9);
+  }
+  &.p-places-demo {
+    @include projectColorModal(#22db90);
+  }
+
+  &.p-endpoint {
+    @include projectColorModal(#ff9b0b);
+  }
+  &.p-remnant {
+    @include projectColorModal(#2a96db);
+  }
+
+  &.p-jthello {
+    @include projectColorModal(#22d064);
+  }
+  &.p-tmsbro {
+    @include projectColorModal(#7ba5d5);
   }
 }

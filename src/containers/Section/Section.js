@@ -87,7 +87,8 @@ class Section extends Component {
         description: 'Most of my free-time is spent on development and creative work. Most of these are personal, and some are professional!',
         links: [],
         codetexts: [
-          "",
+          "DEV",
+          "ART",
         ]
       },
       contact: {

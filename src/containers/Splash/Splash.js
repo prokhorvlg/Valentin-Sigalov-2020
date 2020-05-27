@@ -38,6 +38,16 @@ class Splash extends React.Component {
       stage5: null,
       stage6: null
     };
+
+    this.personRandomTexts = [
+      "DRAWING A STARSHIP",
+      "CONCEPTING LOGOS",
+      "DEVELOPING A WEBSITE",
+      "WORLDBUILDING",
+      "WATCHING SCI-FI",
+      "CRASHING UNITY",
+    ];
+    this.splashPersonTimeout = null;
   }
 
   handleWindowSizeChange = () => {
@@ -152,6 +162,15 @@ class Splash extends React.Component {
     this.splashRightPara = $('.splash-right-para');
     this.splashRightUpper = $('.splash-right-upper');
     this.splashRightNavEls = $('.splash-right-nav li.splash-right-nav-element');
+
+    // Animate the text for the splash-person tag.
+    var splashPerson = $('#splash-person');
+    var splash = this;
+
+    clearTimeout(splash.splashPersonTimeout);
+    splash.textAnim = setTimeout(function() {
+      animateSplashHeaderText(splashPerson, splash.personRandomTexts, splash.splashPersonTimeout);
+    }, 300);
   }
 
   toggleMobileNav() {
@@ -333,7 +352,7 @@ class Splash extends React.Component {
             <div className="splash-lower-terminal-container">
               <div className="splash-lower-left-terminal">
                 <div className="splash-lower-left-terminal-blinker"></div>
-                <span>> PERSONNEL FILE [VALENTIN_SIGALOV] ... LOADED.</span>
+                <span id="splash-person">> CURRENT STATUS ... DEVELOPING.</span>
               </div>
               <div className="splash-lower-right-terminal">
                 <span>> NCORP personal TERMINAL_OS V 2.2</span>
@@ -712,7 +731,18 @@ function randomChoose(value1, value2) {
 
 // Provides a random number within the range.
 function randomNumber(min, max) {
-  return (Math.floor(Math.random() * max) + min);
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+function animateSplashHeaderText(el, arr, timeout) {
+  
+  var randomText = arr[randomNumber(0, arr.length - 1)];
+  var content = "> CURRENT STATUS ... " + randomText + ".";
+  el.html(content);
+
+  timeout = setTimeout(function() {
+    animateSplashHeaderText(el, arr, timeout);
+  }, randomNumber(800,1400));
 }
 
 export default Splash;

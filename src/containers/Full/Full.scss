@@ -6,6 +6,10 @@ body {
   font-size: 1rem;
 }
 
+html {
+  height: 100%;
+}
+
 img {
   max-width: 100%;
 }
@@ -31,6 +35,175 @@ img {
   @media (max-width: $breakpoint-med) {
     display: none;
   }
+}
+
+.full-footer {
+  background: black;
+  border-left: 3px solid $color-contact;
+  margin-left: 350px;
+  padding: 40px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  p {
+    display: block;
+    margin: 0;
+
+    color: white;
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    span {
+      font-weight: 600;
+      color: $color-contact;
+    }
+  }
+  @media (max-width: $breakpoint-med) {
+    margin: 0;
+    border: none;
+  }
+}
+
+// Modal
+.ReactModal__Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.96);
+  z-index: 110;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .ReactModal__Content {
+    margin: auto;
+    max-height: 100%;
+    overflow: auto;
+    
+    width: 100%;
+    
+    .modal-body {
+      display: flex;
+      flex-direction: row;
+      padding: 100px;
+
+      
+      margin: 0 auto;
+
+      @media (max-width: 750px) {
+        width: auto;
+        padding: 60px 20px 60px 20px;
+      }
+
+      .modal-body-closepad {
+        flex: 1;
+      }
+
+      .modal-body-inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        max-width: 100%;
+        width: 750px;
+      }
+      
+      .modal-close {
+        position: fixed;
+        top: 10vh;
+        right: 10vh;
+
+        @media (max-width: $breakpoint-med) {
+          top: 15px;
+          right: 15px;
+        }
+
+        button {
+          margin: 0;
+          padding: 10px;
+
+          border: 3px solid white;
+          background-color: black;
+
+          .burger {
+            font-size: 14px;
+            transform: scale(0.9);
+            
+            .burger-lines, .burger-lines::after, .burger-lines::before {
+              background-color: white;
+              height: 0.35em;
+              border-radius: 0.15em;
+
+              transition: .1s top .1s, .05s left, .1s transform, .2s background-color .1s;
+              -webkit-transition: .1s top .1s, .05s left, .1s transform, .2s background-color .1s;
+            }
+            &.open .burger-lines, &.open .burger-lines::after, &.open .burger-lines::before {
+              -webkit-transition: .1s background-color, .1s top, .1s left, .1s transform .075s;
+              transition: .1s background-color, .1s top, .1s left, .1s transform .075s;
+            }
+
+            .burger-lines::before {
+              top: 0.8em;
+              left: 0;
+              right: 0;
+              width: auto;
+            }
+            .burger-lines::after {
+              top: -0.8em;
+              left: 0;
+              right: 0;
+              width: auto;
+            }
+
+            &.open .burger-lines::before {
+              top: 0em;
+              left: 0;
+            }
+            &.open .burger-lines::after {
+              top: 0em;
+              left: 0;
+            }
+            &.open .burger-lines {
+              background-color: #17120900;
+            }
+          }
+
+          &:focus {
+            outline: 1px dotted white;
+          }
+
+
+        }
+      }
+    }
+  }
+}
+
+// Modal transitions
+.ReactModal__Overlay {
+  opacity: 0;
+  transform: scale(1.1);
+  transition: all 300ms ease-in-out;
+}
+
+.ReactModal__Overlay--after-open {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.ReactModal__Overlay--before-close {
+  opacity: 0;
+  transform: scale(1.1);
+}
+
+.ReactModal__Body--open {
+  height: 100%;
+  overflow: hidden;
 }
 
 @media only screen and( min-resolution: 120dpi ) {

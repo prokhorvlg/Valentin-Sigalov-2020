@@ -62,8 +62,9 @@ class SectionExperience extends Component {
               <h5 className="experience-entry-subtitle">JP Morgan Chase & Co. <span className="experience-entry-subtitle-it">(March 2018 - Present)</span></h5>
               <ul>
                 <li>Participate in migration of website components to Adobe Experience Management CMS platform</li>
-                <li>Develop new front-end and back-end code for CMS components and websites based off of requirements and designs</li>
-                <li>Conceptualize solutions and tech approaches for particular web development issues and challenges</li>
+                <li>Develop front-end code for new websites based off of requirements and designs using HTML5, LESS, JavaScript, and jQuery</li>
+                <li>Conceptualize full-stack solutions and tech approaches for particular web development issues and challenges</li>
+                <li>Utilize REST APIs to create dynamic, data-driven user interfaces</li>
               </ul>
               {/*<h5 className="experience-entry-smalltitle">Technologies Used</h5>
               <p>Stuff, things</p>*/}
