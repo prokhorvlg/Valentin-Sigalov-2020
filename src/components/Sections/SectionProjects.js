@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import $ from "jquery";
 import Modal from 'react-modal';
+import FlipMove from 'react-flip-move';
 
 import Burger from '@animated-burgers/burger-squeeze' 
 import '@animated-burgers/burger-squeeze/dist/styles.css'
@@ -24,6 +25,8 @@ import VidVS2017 from "../../video/vs2017.gif";
 import VidMorningArtifice from "../../video/ma1.gif";
 import VidJPMCCareers from "../../video/careers1.gif";
 import VidPlaces from "../../video/places.gif";
+import VidJThello from "../../video/jthello.gif";
+import VidUNTS from "../../video/unts.gif";
 
 class SectionProjects extends Component {
 
@@ -57,24 +60,25 @@ class SectionProjects extends Component {
           <p>This site took a more blog-based format (the structure of which could be seen within Collection). Unfortunately, my work on this site was cut short by my college's senior design project, Endpoint. I plan on coming back eventually, as the functionality is all there.</p></div>,
         },
         {
-          title: "Unturned Stones 2018",
-          tags: "Personal / Worldbuilding / Jekyll",
-          type: "key-web",
-          image: ProjUnturnedStones2018,
-          class: "p-unts-2018",
-          url: "https://www.unturned-stones.com/",
-          text: <div><p>Unturned Stones (later revamped and renamed to Morning Artifice) was my primary worldbuilding project a while ago. It was meant to be a way of introducing people to, and storing info about, the science-fiction world I created that centered around the emergence of hyper-intelligent AI in an alternative future.</p>
-          <h5>Wiki-based Approach</h5>
-          <p>With Unturned Stones, I tried to create a wiki-esque site to store and present this info. However, after implementing the system and beginning to populate the content, I realized that a single person cannot reasonably manage a wiki. This (as well as changes in creative vision) led to the creation of Morning Artifice.</p></div>,
-        },
-        {
           title: "JPMC Careers",
           tags: "Professional / Front-End",
           type: "key-web",
           image: ProjJPMCCareers,
           video: VidJPMCCareers,
           class: "p-jpmc-careers",
-          text: <div><p>I've worked on (and still work on) many JPM websites, but I'm most proud of the work I did on this one. Among other things, I planned out and implemented the filtering component - it does everything from multiple API calls to retrieve options and job data, to the filtering logic for each variation of the component, to smooth UI look and feel.</p></div>,
+          url: "https://careers.jpmorgan.com/us/en/home",
+          text: <div><p>I've worked on (and still work on) many JPMC websites, but I'm most proud of the work I did on this one. Among other things, I planned out and implemented the filtering component - it does everything from multiple API calls to retrieve options and job data, to the filtering logic for each variation of the component, to smooth UI look and feel.</p></div>,
+        },
+        {
+          title: "Unturned Stones 2018",
+          tags: "Personal / Worldbuilding / Jekyll",
+          type: "key-web",
+          image: ProjUnturnedStones2018,
+          class: "p-unts-2018",
+          video: VidUNTS,
+          text: <div><p>Unturned Stones (later revamped and renamed to Morning Artifice) was my primary worldbuilding project a while ago. It was meant to be a way of introducing people to, and storing info about, the science-fiction world I created that centered around the emergence of hyper-intelligent AI in an alternative future.</p>
+          <h5>Wiki-based Approach</h5>
+          <p>With Unturned Stones, I tried to create a wiki-esque site to store and present this info. However, after implementing the system and beginning to populate the content, I realized that a single person cannot reasonably manage a wiki. This (as well as changes in creative vision) led to the creation of Morning Artifice.</p></div>,
         },
         {
           title: "Valentin Sigalov 2017",
@@ -126,6 +130,7 @@ class SectionProjects extends Component {
           tags: "Collaborative / Java",
           type: "key-other",
           image: ProjJThello,
+          video: VidJThello,
           class: "p-jthello",
           text: <div><p>As part of a course on my Human-Computer Interaction track, I collaborated with another student to create jThello. jThello is a Java-based Othello board game. I designed and implemented most of the interface.</p></div>,
         },
@@ -189,9 +194,6 @@ class SectionProjects extends Component {
 
     // Show corresponding modal data.
     $(".projects-modal-item").filter('[data-key="' + target + '"]').css('display', 'block');
-
-    // Auto-focus onto the close button.
-    //$('.modal-close').focus();
   }
 
   closeModal() {
@@ -200,20 +202,19 @@ class SectionProjects extends Component {
   }
 
   render() {
-    // Get filter and data.
-    /*
-    const { filter, data } = this.state;
-
     // Get filter data as variable.
-    const lowercasedFilter = filter.toLowerCase();
+    const filter = this.state.filter;
+    const data = this.state.data;
 
     // Get data filtered by the filter.
-    const filteredData = data.filter(item => {
-      return Object.keys(item).some(key => 
-        item[key].toLowerCase().includes(lowercasedFilter)
-      );
+    // item: { ..., type: 'key-something' }
+    const filteredData = data.filter((item) => {
+      if (item.type === filter || filter === "") {
+        return true;
+      }
+      return false;
     });
-    */
+    
     return (
       <div className="section-all-content">
         <div className="section-content section-projects">
@@ -223,6 +224,7 @@ class SectionProjects extends Component {
               <div className="segment-inner-image-container">
                   <div className="segment-inner-floaty segment-inner-floaty-1"></div>
                   <div className="segment-inner-floaty segment-inner-floaty-2"></div>
+                  <div className="segment-inner-floaty segment-inner-floaty-3"></div>
                   <img className="segment-inner-image" src={ProjectsDev} />
               </div>
               <div className="segment-inner-content-container">
@@ -282,9 +284,13 @@ class SectionProjects extends Component {
 
           <div className="projects-filter-body" id="projects-modal-container">
             <div className="projects-filter-items">
-
-              {this.state.data.map((item, index) => (
-                <a href="#" key={index} data-key={item.class} className={"projects-filter-item " + item.class} onClick={(e) => this.openModal(e)}>
+              <FlipMove 
+                typeName={null}
+                duration={200}
+                staggerDelayBy={20}
+                >
+              {filteredData.map((item, index) => (
+                <a href="#" key={item.class} data-key={item.class} className={"projects-filter-item " + item.class} onClick={(e) => this.openModal(e)}>
                   <div className="filter-item-image">
                     <div className="filter-item-image-wrap">
                       <img src={item.image} />
@@ -305,7 +311,7 @@ class SectionProjects extends Component {
                   </div>
                 </a>
               ))}
-
+              </FlipMove>
             </div>
           </div>
 
@@ -314,6 +320,7 @@ class SectionProjects extends Component {
               <div className="segment-inner-image-container">
                   <div className="segment-inner-floaty segment-inner-floaty-1"></div>
                   <div className="segment-inner-floaty segment-inner-floaty-2"></div>
+                  <div className="segment-inner-floaty segment-inner-floaty-3"></div>
                   <img className="segment-inner-image" src={ProjectsArt} alt="" />
               </div>
               <div className="segment-inner-content-container">

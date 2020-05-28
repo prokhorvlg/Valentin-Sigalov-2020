@@ -1259,15 +1259,47 @@ $section-default-padding-mobile: 30px;
       }
     }
   }
+  .segment-inner-floaty {
+    position: absolute;
+    border: 3px solid $color-projects;
+    z-index: -1;
+    transform: rotate(45deg);
+
+    @media (max-width: $breakpoint-med) {
+      display: none;
+    }
+
+    &.segment-inner-floaty-1 {
+      width: 15px;
+      height: 110px;
+
+      bottom: -40px;
+      right: -520px;
+    }
+
+    &.segment-inner-floaty-2 {
+      width: 10px;
+      height: 30px;
+
+      left: -80px;
+      top: 90px;
+    }
+
+    &.segment-inner-floaty-3 {
+      width: 10px;
+      height: 60px;
+
+      right: -90px;
+      top: -40px;
+    }
+  }
 }
 
 .segment-art-projects {
   text-align: right;
-
   @media (max-width: $breakpoint-med) {
     text-align: left;
   }
-
   .segment-inner {
     flex-direction: row-reverse;
 
@@ -1275,7 +1307,6 @@ $section-default-padding-mobile: 30px;
       flex-direction: column-reverse;
     }
   }
-
   .segment-inner-content-container {
     margin-left: 0;
     margin-right: 70px;
@@ -1296,41 +1327,38 @@ $section-default-padding-mobile: 30px;
     }
   }
 
-
   .segment-inner-floaty {
     position: absolute;
-    border: 3px solid $color-experience;
-    border-radius: 50%;
+    border: 3px solid $color-projects;
     z-index: -1;
+    transform: rotate(-45deg);
 
     @media (max-width: $breakpoint-med) {
       display: none;
     }
 
-    transform: translate(-50%, -50%);
-
     &.segment-inner-floaty-1 {
-      width: 130px;
-      height: 130px;
+      width: 15px;
+      height: 90px;
 
-      left: 130px;
-      top: 150px;
+      bottom: -40px;
+      left: -480px;
     }
 
     &.segment-inner-floaty-2 {
-      width: 50px;
+      width: 12px;
       height: 50px;
 
-      bottom: 20px;
-      left: calc(50% - 100px);
+      right: -80px;
+      top: 80px;
     }
 
     &.segment-inner-floaty-3 {
-      width: 20px;
-      height: 20px;
+      width: 10px;
+      height: 30px;
 
-      top: 90px;
-      left: 210px;
+      left: -90px;
+      top: -30px;
     }
   }
 }
@@ -2076,7 +2104,7 @@ $stats-large-breakpoint: 1400px;
 }
 
 .projects-filter-menu {
-  width: 70%;
+  width: 100%;
   margin: 0 auto;
   padding: $section-default-padding 0;
   padding-bottom: 0;
@@ -2188,32 +2216,33 @@ $stats-large-breakpoint: 1400px;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    width: 100%;
 
     .projects-filter-item {
       display: flex;
       flex-direction: column;
 
-      padding: 12px;
-      margin: 20px;
-      width: 290px;
+      padding: 6px;
+      margin: 5px;
+      width: 330px;
       max-width: 100%;
+
+      //background: black;
 
       cursor: pointer;
       user-select: none;
       transition: 0.2s ease-in-out;
 
-      border: 3px solid transparent;
-      border-radius: 10px;
+      border: 3px solid white;
+      border-radius: 15px;
 
       div {
         pointer-events: none;
       }
 
       @media (max-width: $breakpoint-med) {
-        padding-bottom: 10px;
-        padding-top: 10px;
         margin: 0;
-        width: auto;
+        margin: 8px;
       }
 
       &::before, &::after {
@@ -2222,8 +2251,6 @@ $stats-large-breakpoint: 1400px;
 
       @media(hover: hover) and (pointer: fine) {
         &:hover, &:focus {
-          background: none;
-
           .filter-item-image .filter-item-image-wrap img {
             transform: scale(1.8);
           }
@@ -2243,7 +2270,7 @@ $stats-large-breakpoint: 1400px;
         
         .filter-item-image-wrap {
           overflow: hidden;
-          border-radius: 8px;
+          border-radius: 6px;
           position: relative;
 
           &::after {
@@ -2275,17 +2302,19 @@ $stats-large-breakpoint: 1400px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        margin-top: 10px;
+        margin-top: 5px;
 
         border: 2px solid transparent;
         border-radius: 10px;
+
+        padding: 15px;
 
         .filter-item-titles {
           h4 {
             margin: 0;
             font-size: 22px;
             letter-spacing: -0.7px;
-            color: black;
+            color: white;
             transition: 0.1s ease-in-out;
             @media (max-width: $breakpoint-med) {
               font-size: 18px;
@@ -2319,6 +2348,7 @@ $stats-large-breakpoint: 1400px;
       }
 
       @mixin projectColor($color, $color-overlay) {
+
         .filter-item-button svg path {
           stroke: $color;
         }
@@ -2328,18 +2358,12 @@ $stats-large-breakpoint: 1400px;
         .filter-item-image .filter-item-image-wrap::after {
           background: $color-overlay;
         }
+        background: adjust-color($color, $lightness: -50%);
         @media(hover: hover) and (pointer: fine) {
           &:hover, &:focus {
+            background: adjust-color($color, $lightness: -38%);
             border-color: $color;
           }
-        }
-        @media (max-width: $breakpoint-med) {
-          .filter-item-image {
-            border: 3px solid $color;
-            border-radius: 12px;
-            padding: 2px;
-          }
-          
         }
       }
 
@@ -2350,10 +2374,10 @@ $stats-large-breakpoint: 1400px;
         @include projectColor(#f0f, #f0f);
       }
       &.p-jpmc-careers {
-        @include projectColor(#00477b, #2c9ff3);
+        @include projectColor(#2c9ff3, #2c9ff3);
       }
       &.p-unts-2018 {
-        @include projectColor(#555, #fff);
+        @include projectColor(#0ff, #0ff);
       }
       &.p-vs-2017 {
         @include projectColor(#2ab5e9, #2ab5e9);
@@ -2373,7 +2397,7 @@ $stats-large-breakpoint: 1400px;
         @include projectColor(#22d064, #22d064);
       }
       &.p-tmsbro {
-        @include projectColor(#7ba5d5, #fff);
+        @include projectColor(#6e73dc, #6e73dc);
       }
 
       
@@ -2505,7 +2529,7 @@ $stats-large-breakpoint: 1400px;
     @include projectColorModal(#2c9ff3);
   }
   &.p-unts-2018 {
-    @include projectColorModal(#777);
+    @include projectColorModal(#0ff);
   }
   &.p-vs-2017 {
     @include projectColorModal(#2ab5e9);
@@ -2525,6 +2549,6 @@ $stats-large-breakpoint: 1400px;
     @include projectColorModal(#22d064);
   }
   &.p-tmsbro {
-    @include projectColorModal(#7ba5d5);
+    @include projectColorModal(#6e73dc);
   }
 }

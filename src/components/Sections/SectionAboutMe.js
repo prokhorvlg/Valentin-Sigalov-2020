@@ -58,7 +58,7 @@ class SectionAboutMe extends Component {
 
               <div className="stats-content-entry">
                 <div className="stats-content-title"><span>Location</span></div>
-                <div className="stats-content-data"><span>Philadelphia, Pennsylvania, USA, Terra</span></div>
+                <div className="stats-content-data"><span>Philadelphia, Pennsylvania, USA, Earth</span></div>
               </div>
 
               <div className="stats-content-entry">
