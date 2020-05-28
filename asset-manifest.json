@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.2724c883.chunk.css",
-    "main.js": "/static/js/main.0ac4f44f.chunk.js",
-    "main.js.map": "/static/js/main.0ac4f44f.chunk.js.map",
+    "main.js": "/static/js/main.adc9d927.chunk.js",
+    "main.js.map": "/static/js/main.adc9d927.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.31b78731.js",
     "runtime-main.js.map": "/static/js/runtime-main.31b78731.js.map",
     "static/css/2.d3e54801.chunk.css": "/static/css/2.d3e54801.chunk.css",
-    "static/js/2.b566be74.chunk.js": "/static/js/2.b566be74.chunk.js",
-    "static/js/2.b566be74.chunk.js.map": "/static/js/2.b566be74.chunk.js.map",
+    "static/js/2.9021932c.chunk.js": "/static/js/2.9021932c.chunk.js",
+    "static/js/2.9021932c.chunk.js.map": "/static/js/2.9021932c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.4beb7c943db7187187ad487467e4ec2d.js": "/precache-manifest.4beb7c943db7187187ad487467e4ec2d.js",
+    "precache-manifest.17cf00e8b5621493344d5808290615dc.js": "/precache-manifest.17cf00e8b5621493344d5808290615dc.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.d3e54801.chunk.css.map": "/static/css/2.d3e54801.chunk.css.map",
     "static/css/main.2724c883.chunk.css.map": "/static/css/main.2724c883.chunk.css.map",
-    "static/js/2.b566be74.chunk.js.LICENSE.txt": "/static/js/2.b566be74.chunk.js.LICENSE.txt",
+    "static/js/2.9021932c.chunk.js.LICENSE.txt": "/static/js/2.9021932c.chunk.js.LICENSE.txt",
     "static/media/2020PS-resume-pic.png": "/static/media/2020PS-resume-pic.790e4c5e.png",
     "static/media/compiler.scss": "/static/media/2020PS-splash-bg.0d2a0fa1.png",
     "static/media/ContactHello.png": "/static/media/ContactHello.a74c5129.png",
@@ -49,15 +49,14 @@
     "static/media/projects-art-image.png": "/static/media/projects-art-image.98cbf8ac.png",
     "static/media/projects-dev-image.png": "/static/media/projects-dev-image.fbe061ce.png",
     "static/media/unts.gif": "/static/media/unts.3a941278.gif",
-    "static/media/vs-og-image.png": "/static/media/vs-og-image.255d5919.png",
     "static/media/vs2017.gif": "/static/media/vs2017.129f4ed0.gif",
     "static/media/web-technologies-skills-icon.png": "/static/media/web-technologies-skills-icon.14c40246.png"
   },
   "entrypoints": [
     "static/js/runtime-main.31b78731.js",
     "static/css/2.d3e54801.chunk.css",
-    "static/js/2.b566be74.chunk.js",
+    "static/js/2.9021932c.chunk.js",
     "static/css/main.2724c883.chunk.css",
-    "static/js/main.0ac4f44f.chunk.js"
+    "static/js/main.adc9d927.chunk.js"
   ]
 }
