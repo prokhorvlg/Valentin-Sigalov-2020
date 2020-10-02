@@ -923,6 +923,13 @@ $section-line-padding-left: 7%;
 
         }
 
+        .experience-entry-history {
+          margin-bottom: 0.2rem;
+          &.small-padding {
+            margin-bottom: 1.2rem;
+          }
+        }
+
         ul {
           margin: 0;
           padding: 0;

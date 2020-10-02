@@ -25,7 +25,7 @@ class SectionAboutMe extends Component {
             </div>
             <div className="segment-inner-content-container">
                 <h3>Hello!</h3>
-              <p>I am a Philadelphia-based full-stack web developer with over 4 years of professional experience, and a passion for interactive software.</p>
+              <p>I am a Philadelphia-based full-stack web developer with 5 years of professional experience, and a passion for interactive software.</p>
               <p>My favorite thing to do is to bring new user experiences to life by combining great design with sleek code.</p>
             </div>
           </div>
@@ -35,8 +35,8 @@ class SectionAboutMe extends Component {
           <div className="stats-status-container">
             <h3>Career Status</h3>
             <div className="stats-status-content">
-              <h4>Graduating soon!</h4>
-              <p>I am graduating from Drexel University as a Computer Science major, and am seeking a full-time position in the area.</p>
+              <h4>Looking for work!</h4>
+              <p>I am seeking a full-time position in the web development field.</p>
               <h4>Employment</h4>
               <p>Currently a part-time web developer at JP Morgan Chase! I mainly work on constructing and modifying front-end components.</p>
             </div>
@@ -119,11 +119,11 @@ class SectionAboutMe extends Component {
         <div className="section-sidecards">
           <div className="sidecards-card">
             <img src={LyddieJones} alt="Lyddie Jones" />
-            <p>Grew up here in Philly. Currently living with my amazing partner/string bean, Lydia <span role="img" aria-label="smiley">😀</span></p>
+            <p>Grew up here in Philly. Currently living with my amazing partner/string bean, Lydia <span role="img" aria-label="heart">❤️</span></p>
           </div>
           <div className="sidecards-card">
             <img src={RandyCat} alt="Randy the Cat" />
-            <p>Here's my family's cat, Randy <span role="img" aria-label="heart">❤️</span></p>
+            <p>Here's my family's cat, Randy <span role="img" aria-label="smiley">😀</span></p>
           </div>
         </div>
 

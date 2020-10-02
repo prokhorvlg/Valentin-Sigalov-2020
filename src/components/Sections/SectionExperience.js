@@ -61,10 +61,17 @@ class SectionExperience extends Component {
               <h4>Front-End Experience Web Developer</h4>
               <h5 className="experience-entry-subtitle">JP Morgan Chase & Co. <span className="experience-entry-subtitle-it">(March 2018 - Present)</span></h5>
               <ul>
-                <li>Participate in migration of website components to Adobe Experience Management CMS platform</li>
-                <li>Develop front-end code for new websites based off of requirements and designs using HTML5, LESS, JavaScript, and jQuery</li>
-                <li>Conceptualize full-stack solutions and tech approaches for particular web development issues and challenges</li>
-                <li>Utilize REST APIs to create dynamic, data-driven user interfaces</li>
+                <li>Create modular components usable on multiple sites within brands,
+such as site navigation, headers and footers, modals, article grids,
+tab navigation, accordions, and others</li>
+<li>Conceptualize full-stack tech approaches for reusable components
+which can easily be dropped onto page by content authors</li>
+<li>Develop responsive front-end code based off of requirements and
+designs using HTML5, CSS/LESS, JavaScript, jQuery</li>
+<li>Implement REST APIs and business logic to create dynamic, datadriven interfaces, such as the JPMC Careers search filter components</li>
+<li>Utilize Git/BitBucket version control system, Jira-integrated branch
+management, and SonarQube linter to ensure code quality and
+consistency before reaching production platform</li>
               </ul>
               {/*<h5 className="experience-entry-smalltitle">Technologies Used</h5>
               <p>Stuff, things</p>*/}
@@ -132,11 +139,16 @@ class SectionExperience extends Component {
               <img className="experience-entry-inner-image" src={WindberLogo} alt="Windber Logo" />
             </div>
             <div className="experience-entry-content">
-              <h4>Web Developer Intern</h4>
-              <h5 className="experience-entry-subtitle">Windber Research Institute <span className="experience-entry-subtitle-it">(June 2015 - March 2017)</span></h5>
+              <h4>Senior Software Engineer</h4>
+              <h5 className="experience-entry-subtitle">Seagal Solutions Inc. <span className="experience-entry-subtitle-it">(June 2015 - Present)</span></h5>
+              <p className="experience-entry-history">Senior Software Engineer (July 2020 - Present)</p>
+              <p className="experience-entry-history">Software Engineer (2017 - July 2020)</p>
+              <p className="experience-entry-history">Intern (2015 - 2017)</p>
+              <p className="experience-entry-history small-padding">Client: Chan Soon-Shiong Institute of Molecular Medicine at Windber</p>
               <ul>
-                <li>Programmed JavaScript modules used to dynamically display a patient's life</li>
-                <li>Implemented front-end design and code into a C# based Model View Controller</li>
+                <li>Provide modern design solutions for sections within a complex data warehouse tool used by cancer researchers</li>
+                <li>Enhance data-driven components with responsive, clean front-end CSS and JavaScript code to ensure user experience across devices</li>
+                <li>Collaborate with back-end engineers utilizing a C#-based Model View Controller to generate interface</li>
               </ul>
             </div>
           </div>
