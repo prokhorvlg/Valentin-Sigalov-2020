@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.73c10ed4.chunk.css",
-    "main.js": "/static/js/main.a3a2f12a.chunk.js",
-    "main.js.map": "/static/js/main.a3a2f12a.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.31b78731.js",
-    "runtime-main.js.map": "/static/js/runtime-main.31b78731.js.map",
-    "static/css/2.d3e54801.chunk.css": "/static/css/2.d3e54801.chunk.css",
-    "static/js/2.9021932c.chunk.js": "/static/js/2.9021932c.chunk.js",
-    "static/js/2.9021932c.chunk.js.map": "/static/js/2.9021932c.chunk.js.map",
+    "main.css": "/static/css/main.495b3835.chunk.css",
+    "main.js": "/static/js/main.06598173.chunk.js",
+    "main.js.map": "/static/js/main.06598173.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8b0c7c36.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8b0c7c36.js.map",
+    "static/css/2.2a873c25.chunk.css": "/static/css/2.2a873c25.chunk.css",
+    "static/js/2.2d4522cf.chunk.js": "/static/js/2.2d4522cf.chunk.js",
+    "static/js/2.2d4522cf.chunk.js.map": "/static/js/2.2d4522cf.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.efb0f713b0394d413cf7dea317e1d1df.js": "/precache-manifest.efb0f713b0394d413cf7dea317e1d1df.js",
+    "precache-manifest.d12a5b0240680a0cc714eacdaed3a526.js": "/precache-manifest.d12a5b0240680a0cc714eacdaed3a526.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/2.d3e54801.chunk.css.map": "/static/css/2.d3e54801.chunk.css.map",
-    "static/css/main.73c10ed4.chunk.css.map": "/static/css/main.73c10ed4.chunk.css.map",
-    "static/js/2.9021932c.chunk.js.LICENSE.txt": "/static/js/2.9021932c.chunk.js.LICENSE.txt",
+    "static/css/2.2a873c25.chunk.css.map": "/static/css/2.2a873c25.chunk.css.map",
+    "static/css/main.495b3835.chunk.css.map": "/static/css/main.495b3835.chunk.css.map",
+    "static/js/2.2d4522cf.chunk.js.LICENSE.txt": "/static/js/2.2d4522cf.chunk.js.LICENSE.txt",
     "static/media/2020PS-resume-pic.png": "/static/media/2020PS-resume-pic.d0be56dd.png",
     "static/media/compiler.scss": "/static/media/2020PS-splash-bg.30b023f5.png",
     "static/media/ContactHello.png": "/static/media/ContactHello.be059508.png",
@@ -47,10 +47,10 @@
     "static/media/web-technologies-skills-icon.png": "/static/media/web-technologies-skills-icon.14c40246.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.31b78731.js",
-    "static/css/2.d3e54801.chunk.css",
-    "static/js/2.9021932c.chunk.js",
-    "static/css/main.73c10ed4.chunk.css",
-    "static/js/main.a3a2f12a.chunk.js"
+    "static/js/runtime-main.8b0c7c36.js",
+    "static/css/2.2a873c25.chunk.css",
+    "static/js/2.2d4522cf.chunk.js",
+    "static/css/main.495b3835.chunk.css",
+    "static/js/main.06598173.chunk.js"
   ]
 }
