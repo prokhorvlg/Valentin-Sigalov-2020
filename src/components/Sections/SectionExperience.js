@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import VanguardLogo from "../../images/experience-img-vanguard.png";
 import JPMLogo from "../../images/experience-img-jpm.png";
 import SHMLogo from "../../images/experience-img-shm.png";
 import WindberLogo from "../../images/experience-img-windber.png";
@@ -27,7 +28,7 @@ class SectionExperience extends Component {
             <div className="section-startheader-right">
               <div className="section-startheader-right-inner">
                 <img src={ProfessionalIcon} />
-                <h3>Professional Experience</h3>                
+                <h3>Professional Experience</h3>
               </div>
               <div className="section-startheader-right-line"></div>
             </div>
@@ -46,7 +47,7 @@ class SectionExperience extends Component {
               </div>
               <div className="experience-entry-point">
                 <div className="experience-entry-pointwrap">
-                  <svg 
+                  <svg
                    width="8px" height="8px">
                     <path fill-rule="evenodd" className="experience-entry-pointfill"
                    d="M4.000,-0.000 C6.209,-0.000 8.000,1.791 8.000,4.000 C8.000,6.209 6.209,8.000 4.000,8.000 C1.791,8.000 -0.000,6.209 -0.000,4.000 C-0.000,1.791 1.791,-0.000 4.000,-0.000 Z"/>
@@ -55,26 +56,13 @@ class SectionExperience extends Component {
               </div>
             </div>
             <div className="experience-entry-image">
-              <img className="experience-entry-inner-image" src={JPMLogo} alt="JP Morgan Chase" />
+              <img className="experience-entry-inner-image" src={VanguardLogo} alt="Vanguard" />
             </div>
             <div className="experience-entry-content">
-              <h4>Front-End Experience Web Developer</h4>
-              <h5 className="experience-entry-subtitle">JP Morgan Chase & Co. <span className="experience-entry-subtitle-it">(March 2018 - Present)</span></h5>
+              <h4>Full-Stack Developer</h4>
+              <h5 className="experience-entry-subtitle">Vanguard Group <span className="experience-entry-subtitle-it">(January 2021 - Present)</span></h5>
               <ul>
-                <li>Create modular components usable on multiple sites within brands,
-such as site navigation, headers and footers, modals, article grids,
-tab navigation, accordions, and others</li>
-<li>Conceptualize full-stack tech approaches for reusable components
-which can easily be dropped onto page by content authors</li>
-<li>Develop responsive front-end code based off of requirements and
-designs using HTML5, CSS/LESS, JavaScript, jQuery</li>
-<li>Implement REST APIs and business logic to create dynamic, datadriven interfaces, such as the JPMC Careers search filter components</li>
-<li>Utilize Git/BitBucket version control system, Jira-integrated branch
-management, and SonarQube linter to ensure code quality and
-consistency before reaching production platform</li>
               </ul>
-              {/*<h5 className="experience-entry-smalltitle">Technologies Used</h5>
-              <p>Stuff, things</p>*/}
             </div>
           </div>
 
@@ -91,7 +79,48 @@ consistency before reaching production platform</li>
               </div>
               <div className="experience-entry-point">
                 <div className="experience-entry-pointwrap">
-                  <svg 
+                  <svg
+                   width="8px" height="8px">
+                    <path fill-rule="evenodd" className="experience-entry-pointfill"
+                   d="M4.000,-0.000 C6.209,-0.000 8.000,1.791 8.000,4.000 C8.000,6.209 6.209,8.000 4.000,8.000 C1.791,8.000 -0.000,6.209 -0.000,4.000 C-0.000,1.791 1.791,-0.000 4.000,-0.000 Z"/>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div className="experience-entry-image">
+              <img className="experience-entry-inner-image" src={JPMLogo} alt="JP Morgan Chase" />
+            </div>
+            <div className="experience-entry-content">
+              <h4>Front-End Experience Web Developer</h4>
+              <h5 className="experience-entry-subtitle">JP Morgan Chase & Co. <span className="experience-entry-subtitle-it">(March 2018 - December 2020)</span></h5>
+              <ul>
+                <li>Create modular components usable on multiple sites within brands, such as site navigation, headers and footers, modals, article grids, tab navigation, accordions, and others</li>
+                <li>Conceptualize full-stack tech approaches for reusable components
+                which can easily be dropped onto page by content authors</li>
+                <li>Develop responsive front-end code based off of requirements and
+                designs using HTML5, CSS/LESS, JavaScript, jQuery</li>
+                <li>Implement REST APIs and business logic to create dynamic, datadriven interfaces, such as the JPMC Careers search filter components</li>
+                <li>Utilize Git/BitBucket version control system, Jira-integrated branch
+                management, and SonarQube linter to ensure code quality and
+                consistency before reaching production platform</li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="section-experience-entry">
+            <div className="experience-entry-left">
+              <div className="experience-entry-lines">
+                <div className="experience-entry-bottomline"></div>
+                <div className="experience-entry-topline"></div>
+              </div>
+              <div className="experience-entry-angledlines">
+                <div className="experience-entry-angledlinetop"></div>
+                <div className="experience-entry-angledlinebottom"></div>
+                <div className="experience-entry-angledmiddleline"></div>
+              </div>
+              <div className="experience-entry-point">
+                <div className="experience-entry-pointwrap">
+                  <svg
                    width="8px" height="8px">
                     <path fill-rule="evenodd" className="experience-entry-pointfill"
                    d="M4.000,-0.000 C6.209,-0.000 8.000,1.791 8.000,4.000 C8.000,6.209 6.209,8.000 4.000,8.000 C1.791,8.000 -0.000,6.209 -0.000,4.000 C-0.000,1.791 1.791,-0.000 4.000,-0.000 Z"/>
@@ -127,7 +156,7 @@ consistency before reaching production platform</li>
               </div>
               <div className="experience-entry-point">
                 <div className="experience-entry-pointwrap">
-                  <svg 
+                  <svg
                    width="8px" height="8px">
                     <path fill-rule="evenodd" className="experience-entry-pointfill"
                    d="M4.000,-0.000 C6.209,-0.000 8.000,1.791 8.000,4.000 C8.000,6.209 6.209,8.000 4.000,8.000 C1.791,8.000 -0.000,6.209 -0.000,4.000 C-0.000,1.791 1.791,-0.000 4.000,-0.000 Z"/>
@@ -140,7 +169,7 @@ consistency before reaching production platform</li>
             </div>
             <div className="experience-entry-content">
               <h4>Senior Software Engineer</h4>
-              <h5 className="experience-entry-subtitle">Seagal Solutions Inc. <span className="experience-entry-subtitle-it">(June 2015 - Present)</span></h5>
+              <h5 className="experience-entry-subtitle">Seagal Solutions Inc. <span className="experience-entry-subtitle-it">(June 2015 - December 2020)</span></h5>
               <p className="experience-entry-history">Senior Software Engineer (July 2020 - Present)</p>
               <p className="experience-entry-history">Software Engineer (2017 - July 2020)</p>
               <p className="experience-entry-history">Intern (2015 - 2017)</p>
@@ -163,7 +192,7 @@ consistency before reaching production platform</li>
             <div className="section-startheader-right">
               <div className="section-startheader-right-inner">
                 <img src={EducationIcon} />
-                <h3>Education</h3>                
+                <h3>Education</h3>
               </div>
               <div className="section-startheader-right-line"></div>
             </div>
@@ -182,7 +211,7 @@ consistency before reaching production platform</li>
               </div>
               <div className="experience-entry-point">
                 <div className="experience-entry-pointwrap">
-                  <svg 
+                  <svg
                    width="8px" height="8px">
                     <path fill-rule="evenodd" className="experience-entry-pointfill"
                    d="M4.000,-0.000 C6.209,-0.000 8.000,1.791 8.000,4.000 C8.000,6.209 6.209,8.000 4.000,8.000 C1.791,8.000 -0.000,6.209 -0.000,4.000 C-0.000,1.791 1.791,-0.000 4.000,-0.000 Z"/>
@@ -217,7 +246,7 @@ consistency before reaching production platform</li>
               </div>
               <div className="experience-entry-point">
                 <div className="experience-entry-pointwrap">
-                  <svg 
+                  <svg
                    width="8px" height="8px">
                     <path fill-rule="evenodd" className="experience-entry-pointfill"
                    d="M4.000,-0.000 C6.209,-0.000 8.000,1.791 8.000,4.000 C8.000,6.209 6.209,8.000 4.000,8.000 C1.791,8.000 -0.000,6.209 -0.000,4.000 C-0.000,1.791 1.791,-0.000 4.000,-0.000 Z"/>

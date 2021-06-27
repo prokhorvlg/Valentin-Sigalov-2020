@@ -3,7 +3,7 @@ import $ from "jquery";
 import Modal from 'react-modal';
 import FlipMove from 'react-flip-move';
 
-import Burger from '@animated-burgers/burger-squeeze' 
+import Burger from '@animated-burgers/burger-squeeze'
 import '@animated-burgers/burger-squeeze/dist/styles.css'
 
 import ProjectsArt from "../../images/projects-art-image.png";
@@ -214,7 +214,7 @@ class SectionProjects extends Component {
       }
       return false;
     });
-    
+
     return (
       <div className="section-all-content">
         <div className="section-content section-projects">
@@ -246,7 +246,7 @@ class SectionProjects extends Component {
             </div>
           </div>
 
-          <Modal 
+          <Modal
              isOpen={this.state.modalOpen}
              onAfterOpen={() => this.afterOpenModal(this)}
              onRequestClose={this.closeModal}
@@ -284,7 +284,7 @@ class SectionProjects extends Component {
 
           <div className="projects-filter-body" id="projects-modal-container">
             <div className="projects-filter-items">
-              <FlipMove 
+              <FlipMove
                 typeName={null}
                 duration={200}
                 staggerDelayBy={20}
@@ -302,7 +302,7 @@ class SectionProjects extends Component {
                       <p>{item.tags}</p>
                     </div>
                     <div className="filter-item-button">
-                      <svg 
+                      <svg
                        width="20px" height="30px">
                         <path fill-rule="evenodd"  stroke="rgb(0, 0, 0)" stroke-width="4px" stroke-linecap="round" stroke-linejoin="round" fill="none"
                        d="M4.000,4.000 L14.000,14.000 L4.000,24.000 "/>
@@ -325,7 +325,7 @@ class SectionProjects extends Component {
               </div>
               <div className="segment-inner-content-container">
                 <h3>If you want to see my <span>art projects</span>...</h3>
-                <p>I am currently working on a way to present art projects in a clean, personal way. For now, please feel free to check out my numerous art projects over on my <a href="https://www.deviantart.com/prokhorvlg" target="_blank"><i className="fab fa-deviantart" style={{marginRight: "3px"}}></i>DeviantArt</a> profile!</p>
+                <p>Please feel free to check out my numerous art projects over on my <a href="https://www.deviantart.com/prokhorvlg" target="_blank"><i className="fab fa-deviantart" style={{marginRight: "3px"}}></i>DeviantArt</a> profile! Note that I am currently working on Remnant artwork, which is typically not posted... it may seem as though I am inactive even though I'm not.</p>
               </div>
             </div>
           </div>

@@ -1,12 +1,30 @@
-import React, { Component } from 'react';
+import React, { Component, useState } from 'react';
+import Moment from 'moment'
 
 import GalAndMe from "../../images/GalAndMe.png";
 import DevelopmentSkill from "../../images/DevelopmentSkill.png";
 import RemnantMockup from "../../images/RemnantMockup.png";
 import LyddieJones from "../../images/LyddieJones.png";
 import RandyCat from "../../images/RandyCat.png";
+import SkyCat from "../../images/SkyCat.png";
 
 class SectionAboutMe extends Component {
+
+  constructor () {
+    super();
+
+    this.state = {
+      yearsProfessionalExperience: this.renderTimeAgo("2015-6-01"),
+      yearsAlive: this.renderTimeAgo("1997-5-29")
+    };
+  }
+
+  renderTimeAgo(targetDate) {
+    var nowTime = Moment();
+    var beforeTime = Moment(targetDate);
+    var duration = nowTime.diff(beforeTime, 'years');
+    return duration;
+  }
 
   render() {
     return (
@@ -15,7 +33,7 @@ class SectionAboutMe extends Component {
 
         <div className="section-segment segment-hello">
           <div className="segment-inner">
-            
+
             <div className="segment-inner-image-container">
                 <div className="segment-inner-floaty segment-inner-floaty-1"></div>
                 <div className="segment-inner-floaty segment-inner-floaty-2"></div>
@@ -25,7 +43,7 @@ class SectionAboutMe extends Component {
             </div>
             <div className="segment-inner-content-container">
                 <h3>Hello!</h3>
-              <p>I am a Philadelphia-based full-stack web developer with 5 years of professional experience, and a passion for interactive software.</p>
+              <p>I am a Philadelphia-based full-stack web developer with {this.state.yearsProfessionalExperience} years of professional experience, and a passion for interactive software.</p>
               <p>My favorite thing to do is to bring new user experiences to life by combining great design with sleek code.</p>
             </div>
           </div>
@@ -35,10 +53,8 @@ class SectionAboutMe extends Component {
           <div className="stats-status-container">
             <h3>Career Status</h3>
             <div className="stats-status-content">
-              <h4>Looking for work!</h4>
-              <p>I am seeking a full-time position in the web development field.</p>
               <h4>Employment</h4>
-              <p>Currently a part-time web developer at JP Morgan Chase! I mainly work on constructing and modifying front-end components.</p>
+              <p>Currently a web developer at Vanguard! I do full-stack work, anything from front-end components, to business logic, to web services.</p>
             </div>
           </div>
           <div className="stats-stats-container">
@@ -53,7 +69,7 @@ class SectionAboutMe extends Component {
 
               <div className="stats-content-entry">
                 <div className="stats-content-title"><span>Age</span></div>
-                <div className="stats-content-data"><span>23</span></div>
+                <div className="stats-content-data"><span>{this.state.yearsAlive}</span></div>
               </div>
 
               <div className="stats-content-entry">
@@ -97,21 +113,21 @@ class SectionAboutMe extends Component {
                 <path fillRule="evenodd"  stroke="rgb(86, 204, 255)" strokeWidth="3px" strokeLinecap="round" strokeLinejoin="miter" fill="none"
                  d="M31.000,18.000 L3.000,18.000 "/>
                 </svg></div>
-                <img className="segment-inner-image" src={RemnantMockup} alt="A mockup of Remnant" />
-              <span>A mockup of Remnant</span>
+                <img className="segment-inner-image" src={RemnantMockup} alt="Some of the robos from Remnant" />
+              <span>Some of the robos from Remnant</span>
             </div>
             <div className="segment-inner-content-container">
                 <h3>I make (subjectively) cool <span>stuff</span>.</h3>
-              <p>Outside of work and school, I have a lot going on. Currently, I'm in the process of kicking off a new passion project - leading a team of developers and artists (also graduating from Drexel) into creating a "metroidvania-style" video game called <span>Remnant</span>.</p>
+              <p>Outside of work and school, I have a lot going on. Currently, I'm in progress on a passion project - leading a team of developers and artists into creating a "metroidvania-style" video game called <span>Remnant</span>.</p>
             </div>
           </div>
         </div>
 
         <div className="section-smalltitle">
           <div className="smalltitle-container">
-            
+
               <h3>Just a little more...</h3>
-            
+
             <div className="smalltitle-divider"></div>
           </div>
         </div>
@@ -123,7 +139,11 @@ class SectionAboutMe extends Component {
           </div>
           <div className="sidecards-card">
             <img src={RandyCat} alt="Randy the Cat" />
-            <p>Here's my family's cat, Randy <span role="img" aria-label="smiley">😀</span></p>
+            <p>Here's my family's cat, Randy <span role="img" aria-label="cat">🐈</span></p>
+          </div>
+          <div className="sidecards-card">
+            <img src={SkyCat} alt="Sky the Cat" />
+            <p>We adopted a former-feral of our own. Sky is the sweetest creature <span role="img" aria-label="smiley">😀</span></p>
           </div>
         </div>
 
