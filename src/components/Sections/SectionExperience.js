@@ -62,6 +62,11 @@ class SectionExperience extends Component {
               <h4>Full-Stack Developer</h4>
               <h5 className="experience-entry-subtitle">Vanguard Group <span className="experience-entry-subtitle-it">(January 2021 - Present)</span></h5>
               <ul>
+                <li>Constructed front-end features using Angular and Node.js for the "Open an Account" application with thousands of daily users, as well as a number of shared applications and component libraries</li>
+                <li>Ensured longevity of components and services through test-driven development, utilizing unit tests with Jasmine and Karma, and end-to-end tests with Cypress</li>
+                <li>Worked closely with product owners and content managers to assure that the features meet the project's requirements and goals</li>
+                <li>Identified, analyzed, and resolved dozens of user experience issues in real-time through monitoring Splunk dashboards and automated alerts</li>
+                <li>Used Git/Bitbucket version control to collaborate and engage in code reviews</li>
               </ul>
             </div>
           </div>

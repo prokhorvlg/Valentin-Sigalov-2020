@@ -90,8 +90,6 @@ class Splash extends React.Component {
       var slideScale = thisSquare.data("slide-scale");
 
       var x = -dimension / 2 + randomChoose(randomNumber(-constraints[0], -constraints[1]), randomNumber(constraints[0], constraints[1]));
-
-      var yConstraints = [10, 30];
       var y = -dimension / 2 + randomChoose(randomNumber(-constraints[2], -constraints[3]), randomNumber(constraints[2], constraints[3]));
 
       thisSquare.attr("transform", "translate(" + x + ", " + y + ") scale(1)");

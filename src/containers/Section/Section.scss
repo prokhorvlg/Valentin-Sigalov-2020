@@ -946,7 +946,6 @@ $section-line-padding-left: 7%;
           li {
             margin-bottom: 10px;
             position: relative;
-            max-width: 700px;
 
             @media (max-width: $breakpoint-med) {
               margin-left: 20px;
@@ -1376,7 +1375,7 @@ $section-default-padding-mobile: 30px;
       color: black;
 
       span {
-        color: $color-skills;
+        color: $color-projects;
       }
     }
 
@@ -1401,7 +1400,7 @@ $section-default-padding-mobile: 30px;
 
       margin-left: -50%;
       margin-top: 45%;
-      border: 3px solid $color-skills;
+      border: 3px solid $color-projects;
 
       &::after {
         content: '';

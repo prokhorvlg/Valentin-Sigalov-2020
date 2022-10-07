@@ -61,9 +61,9 @@ class Full extends React.Component {
         $(this).css('left', randomNumber(0, 100) + '%');
       }
 
-      animateSectionHeaderSquare(thisBox);
-
       var thisBox = this;
+      animateSectionHeaderSquare(thisBox);
+      
       section.bgboxAnims.push(
         setInterval(function() {
             // Then, run the scale animation.

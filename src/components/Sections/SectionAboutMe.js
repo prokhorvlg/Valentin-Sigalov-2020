@@ -4,6 +4,7 @@ import Moment from 'moment'
 import GalAndMe from "../../images/GalAndMe.png";
 import DevelopmentSkill from "../../images/DevelopmentSkill.png";
 import RemnantMockup from "../../images/RemnantMockup.png";
+import SunsetPic from "../../images/SunsetPic.png";
 import LyddieJones from "../../images/LyddieJones.png";
 import RandyCat from "../../images/RandyCat.png";
 import SkyCat from "../../images/SkyCat.png";
@@ -54,7 +55,8 @@ class SectionAboutMe extends Component {
             <h3>Career Status</h3>
             <div className="stats-status-content">
               <h4>Employment</h4>
-              <p>Currently a web developer at Vanguard! I do full-stack work, anything from front-end components, to business logic, to web services.</p>
+              <p><strong>Currently looking for new work!</strong></p>
+              <p>Previously, I was a front end software engineer at SiteZeus. I worked on a GIS-based enterprise web application designed to assist with analysis and business planning for franchises and small businesses.</p>
             </div>
           </div>
           <div className="stats-stats-container">
@@ -96,7 +98,7 @@ class SectionAboutMe extends Component {
               <span>Latest development skill</span>
             </div>
             <div className="segment-inner-content-container">
-                <h3>I like <span>learning</span> and challenging myself.</h3>
+              <h3>I like <span>learning</span> and challenging myself.</h3>
               <p>If I have spare time, I'm probably picking up a new technology as a software engineer, or flexing my creativity. This website was a way of doing both - exploring cyberpunk design, while also learning React!</p>
             </div>
           </div>
@@ -113,12 +115,12 @@ class SectionAboutMe extends Component {
                 <path fillRule="evenodd"  stroke="rgb(86, 204, 255)" strokeWidth="3px" strokeLinecap="round" strokeLinejoin="miter" fill="none"
                  d="M31.000,18.000 L3.000,18.000 "/>
                 </svg></div>
-                <img className="segment-inner-image" src={RemnantMockup} alt="Some of the robos from Remnant" />
-              <span>Some of the robos from Remnant</span>
+                <img className="segment-inner-image" src={SunsetPic} alt="Humans vanished over a century ago" />
+              <span>Humans vanished over a century ago</span>
             </div>
             <div className="segment-inner-content-container">
                 <h3>I make (subjectively) cool <span>stuff</span>.</h3>
-              <p>Outside of work and school, I have a lot going on. Currently, I'm in progress on a passion project - leading a team of developers and artists into creating a "metroidvania-style" video game called <span>Remnant</span>.</p>
+              <p>Outside of work and school, I have a lot going on. Currently, I'm in progress on a passion project - leading a team of developers into creating a "metroidvania-style" video game called <span>Sunset System</span>. It's about robots facing an existential crisis after mankind is gone.</p>
             </div>
           </div>
         </div>
