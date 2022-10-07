@@ -4,6 +4,7 @@ import VanguardLogo from "../../images/experience-img-vanguard.png";
 import JPMLogo from "../../images/experience-img-jpm.png";
 import SHMLogo from "../../images/experience-img-shm.png";
 import WindberLogo from "../../images/experience-img-windber.png";
+import SZlogo from "../../images/sz.jpg";
 
 import DrexelLogo from "../../images/experience-img-drexel.png";
 import CentralLogo from "../../images/experience-img-central.png";
@@ -56,11 +57,50 @@ class SectionExperience extends Component {
               </div>
             </div>
             <div className="experience-entry-image">
+              <img className="experience-entry-inner-image" src={SZlogo} alt="SiteZeus" />
+            </div>
+            <div className="experience-entry-content">
+              <h4>Front End Engineer</h4>
+              <h5 className="experience-entry-subtitle">SiteZeus <span className="experience-entry-subtitle-it">(August 2021 - October 2022)</span></h5>
+              <ul>
+                <li>Implemented a wide variety of new features and panels within a GIS-based enterprise application using modern web technologies including Vue 3, VueX, and Pinia</li>
+                <li>Combined Leaflet.js with Pinia and Vue 3 to integrate state management with a geographical map, allowing the user to generate and save map features for use in statistical analysis and business planning</li>
+                <li>Brainstormed and developed self-motivated improvements to the product during the team's enhancement days, such as a consistent toast-style notification system</li>
+                <li>Utilized Teleport feature to integrate new components and systems with a legacy Knockout application for the ultimate goal of gradually transitioning to a newer codebase</li>
+                <li>Coordinated and provided feedback to designers, product owners, and quality assurance specialists in order to create an application with excellent user experience</li>
+                <li>Participated in an agile sprint-based workflow and routine code reviews using Azure DevOps</li>
+                <li>Led an initiative to incorporate ADA-compliant principles to the product by presenting research to the development and product team and involving ADA-compliant concepts in the design and development process</li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="section-experience-entry">
+            <div className="experience-entry-left">
+              <div className="experience-entry-lines">
+                <div className="experience-entry-bottomline"></div>
+                <div className="experience-entry-topline"></div>
+              </div>
+              <div className="experience-entry-angledlines">
+                <div className="experience-entry-angledlinetop"></div>
+                <div className="experience-entry-angledlinebottom"></div>
+                <div className="experience-entry-angledmiddleline"></div>
+              </div>
+              <div className="experience-entry-point">
+                <div className="experience-entry-pointwrap">
+                  <svg
+                   width="8px" height="8px">
+                    <path fill-rule="evenodd" className="experience-entry-pointfill"
+                   d="M4.000,-0.000 C6.209,-0.000 8.000,1.791 8.000,4.000 C8.000,6.209 6.209,8.000 4.000,8.000 C1.791,8.000 -0.000,6.209 -0.000,4.000 C-0.000,1.791 1.791,-0.000 4.000,-0.000 Z"/>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div className="experience-entry-image">
               <img className="experience-entry-inner-image" src={VanguardLogo} alt="Vanguard" />
             </div>
             <div className="experience-entry-content">
               <h4>Full-Stack Developer</h4>
-              <h5 className="experience-entry-subtitle">Vanguard Group <span className="experience-entry-subtitle-it">(January 2021 - Present)</span></h5>
+              <h5 className="experience-entry-subtitle">Vanguard Group <span className="experience-entry-subtitle-it">(January 2021 - August 2021)</span></h5>
               <ul>
                 <li>Constructed front-end features using Angular and Node.js for the "Open an Account" application with thousands of daily users, as well as a number of shared applications and component libraries</li>
                 <li>Ensured longevity of components and services through test-driven development, utilizing unit tests with Jasmine and Karma, and end-to-end tests with Cypress</li>
@@ -173,7 +213,7 @@ class SectionExperience extends Component {
               <img className="experience-entry-inner-image" src={WindberLogo} alt="Windber Logo" />
             </div>
             <div className="experience-entry-content">
-              <h4>Senior Software Engineer</h4>
+              <h4>Software Engineer</h4>
               <h5 className="experience-entry-subtitle">Seagal Solutions Inc. <span className="experience-entry-subtitle-it">(June 2015 - December 2020)</span></h5>
               <p className="experience-entry-history">Senior Software Engineer (July 2020 - Present)</p>
               <p className="experience-entry-history">Software Engineer (2017 - July 2020)</p>
