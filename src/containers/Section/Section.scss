@@ -2375,6 +2375,19 @@ $stats-large-breakpoint: 1400px;
         }
       }
 
+      &.p-sz {
+        @include projectColor(#1796ff, #1796ff);
+      }
+      &.p-pomo {
+        @include projectColor(#06c6e8, #06c6e8);
+      }
+      &.p-teammates {
+        @include projectColor(#00cd7d, #00cd7d);
+      }
+      &.p-notebot {
+        @include projectColor(rgb(22, 236, 255), rgb(22, 236, 255));
+      }
+
       &.p-vs-2020 {
         @include projectColor(#ff9a0a, #ff9a0a);
       }
@@ -2436,6 +2449,12 @@ $stats-large-breakpoint: 1400px;
         border-radius: 10px;
         border: 3px solid;
         img {
+          border-radius: 5px;
+          display: block;
+          width: 650px;
+          max-width: 100%;
+        }
+        video {
           border-radius: 5px;
           display: block;
           width: 650px;
@@ -2525,6 +2544,19 @@ $stats-large-breakpoint: 1400px;
       }
     }
 
+  }
+
+  &.p-sz {
+    @include projectColorModal(#1796ff);
+  }
+  &.p-pomo {
+    @include projectColorModal(#06c6e8);
+  }
+  &.p-teammates {
+    @include projectColorModal(#00cd7d);
+  }
+  &.p-notebot {
+    @include projectColorModal(rgb(22, 236, 255));
   }
 
   &.p-vs-2020 {

@@ -17,6 +17,10 @@ import ProjVS2017 from "../../images/ProjectImages/p-valentin-sigalov-2017.png";
 import ProjPlacesDemo from "../../images/ProjectImages/p-places-demo.png";
 import ProjEndpoint from "../../images/ProjectImages/p-endpoint.png";
 import ProjRemnant from "../../images/ProjectImages/p-remnant.png";
+import ProjPomodoro from "../../images/ProjectImages/p-pomo.png";
+import ProjTeammates from "../../images/ProjectImages/p-teammates.png";
+import ProjNotebot from "../../images/ProjectImages/p-notebot.png";
+import ProjSiteZeus from "../../images/ProjectImages/p-sz.png";
 
 import ProjJThello from "../../images/ProjectImages/p-jthello.png";
 import ProjTMSBro from "../../images/ProjectImages/p-tmsbro.png";
@@ -28,6 +32,11 @@ import VidPlaces from "../../video/places.gif";
 import VidJThello from "../../video/jthello.gif";
 import VidUNTS from "../../video/unts.gif";
 
+import VidSZ from "../../video/sz.mp4";
+import VidPomo from "../../video/pomo.mp4";
+import VidTeammates from "../../video/teammates.mp4";
+import VidNotebot from "../../video/notebot.mp4";
+
 class SectionProjects extends Component {
 
   constructor () {
@@ -38,6 +47,50 @@ class SectionProjects extends Component {
       modalOpen: false,
       modalData: '',
       data: [
+        {
+          title: "SiteZeus",
+          tags: "Professional / Front-End / Vue 3",
+          type: "key-web",
+          image: ProjSiteZeus,
+          class: "p-sz",
+          video: VidSZ,
+          text: <div><p>At SiteZeus, I had the pleasure of working on an extensive GIS-based enterprise web application, with a front-end written in both Vue 3 and a legacy portion using Knockout (an older framework).</p>
+          <p>I implemented and participated in the design process for a wide variety of features related to statistical analysis and business planning.</p></div>,
+        },
+        {
+          title: "pomodoro",
+          tags: "Personal / Portfolio / React",
+          type: "key-web",
+          image: ProjPomodoro,
+          class: "p-pomo",
+          url: "https://prokhorvlg.github.io/pomodoro/",
+          video: VidPomo,
+          text: <div><p>pomodoro is a demo for a React-based pomodoro-styled timer web app.</p>
+          <p>Fairly straight forward and strictly front-end, this was a quick project to demonstrate React hooks, functional components, and SCSS knowledge.</p></div>,
+        },
+        {
+          title: "Teammates",
+          tags: "Personal / Portfolio / React",
+          type: "key-web",
+          image: ProjTeammates,
+          video: VidTeammates,
+          class: "p-teammates",
+          url: "https://teammates-demo.herokuapp.com/",
+          text: <div><p>teammates is a demo for a React-based employee directory application. It features a node server, React hooks, Typescript, and Jest unit testing.</p>
+          <p>This, unfortunately, may go offline once Heroku's free tier goes away as it is hosted using a Heroku free dyno.</p></div>,
+        },
+        {
+          title: "Notebot",
+          tags: "Personal / Portfolio / React",
+          type: "key-web",
+          image: ProjNotebot,
+          video: VidNotebot,
+          class: "p-notebot",
+          url: "https://prokhorvlg.github.io/notebot/",
+          text: <div><p>Notebot is a learning project and tech demo that I designed and wrote, with the purpose of writing, storing, and organizing text-based notes.</p>
+          <p>In Notebot, I explored React Hooks and other modern JS framework concepts, as well as an integration with Google Firebase to serve as the back-end. I encourage you to open it and try it for yourself! All notes are associated with the ID generated in the query string.</p>
+          <p>Note: there is a minor bug in which the first few opened notes get registered as changed.</p></div>,
+        },
         {
           title: "Valentin Sigalov 2020",
           tags: "Personal / Portfolio / React",
@@ -52,7 +105,7 @@ class SectionProjects extends Component {
           tags: "Personal / Worldbuilding / Jekyll",
           type: "key-web",
           image: ProjMorningArtifice,
-          video: VidMorningArtifice,
+          gif: VidMorningArtifice,
           class: "p-morning-artifice",
           url: "https://www.morningartifice.com/",
           text: <div><p>Morning Artifice is my primary worldbuilding project. It's a alternative-future world in which technology progressed very differently from our own, creating an interstellar retro-futuristic society experiencing a catastrophic introduction to the concept of ubiquitous computing and weaponized artificial intelligence.</p>
@@ -64,7 +117,7 @@ class SectionProjects extends Component {
           tags: "Professional / Front-End",
           type: "key-web",
           image: ProjJPMCCareers,
-          video: VidJPMCCareers,
+          gif: VidJPMCCareers,
           class: "p-jpmc-careers",
           url: "https://careers.jpmorgan.com/us/en/home",
           text: <div><p>I've worked on (and still work on) many JPMC websites, but I'm most proud of the work I did on this one. Among other things, I planned out and implemented the filtering component - it does everything from multiple API calls to retrieve options and job data, to the filtering logic for each variation of the component, to smooth UI look and feel.</p></div>,
@@ -75,7 +128,7 @@ class SectionProjects extends Component {
           type: "key-web",
           image: ProjUnturnedStones2018,
           class: "p-unts-2018",
-          video: VidUNTS,
+          gif: VidUNTS,
           text: <div><p>Unturned Stones (later revamped and renamed to Morning Artifice) was my primary worldbuilding project a while ago. It was meant to be a way of introducing people to, and storing info about, the science-fiction world I created that centered around the emergence of hyper-intelligent AI in an alternative future.</p>
           <h5>Wiki-based Approach</h5>
           <p>With Unturned Stones, I tried to create a wiki-esque site to store and present this info. However, after implementing the system and beginning to populate the content, I realized that a single person cannot reasonably manage a wiki. This (as well as changes in creative vision) led to the creation of Morning Artifice.</p></div>,
@@ -85,7 +138,7 @@ class SectionProjects extends Component {
           tags: "Personal / Portfolio / Front-End",
           type: "key-web",
           image: ProjVS2017,
-          video: VidVS2017,
+          gif: VidVS2017,
           class: "p-vs-2017",
           url: "https://prokhorvlg.github.io/Valentin-Sigalov/",
           text: <div><p>This was my previous personal/portfolio site. It was meant to be a sleek, static site with a simple clean design. I've taken some inspiration from it for this portfolio site, clearly.</p>
@@ -96,21 +149,21 @@ class SectionProjects extends Component {
           tags: "Personal / Worldbuilding / D3js",
           type: "key-web",
           image: ProjPlacesDemo,
-          video: VidPlaces,
+          gif: VidPlaces,
           class: "p-places-demo",
           url: "http://www.unturnedston.es/places.html",
           text: <div><p>As part of an earlier attempt to create a site for my old worldbuilding project Unturned Stones, I wanted to create a dynamic, changeable map of the setting, since it was constantly changing. The best way to do that turned out to be D3js, an awesome JavaScript library made for data visualization.</p>
           <p>You can see the result here, in the "Places Demo". Midway through the project, I moved on to a new redesign of the setting and site, and abandoned this one. Thankfully though... it's a nice demo of what D3js could be used for!</p></div>,
         },
         {
-          title: "Remnant",
+          title: "Sunset System",
           tags: "Collaborative / C# / Unity",
           type: "key-game",
           image: ProjRemnant,
           class: "p-remnant",
-          text: <div><p>Remnant is a side project I began as a spiritual successor to Endpoint. It is a 2d metroidvania-styled action platformer set in an alternative future, post-apocalyptic Solar System long after mankind was "archived" by an interstellar entity. I am working with many of the people who worked on Endpoint.</p>
+          text: <div><p>Sunset System is a side project I began as a spiritual successor to Endpoint. It is a 2D metroidvania-styled action platformer set in an alternative future, a retro-futuristic world in which mankind vanished leaving only their machines behind.</p>
           <h5>Roles</h5>
-          <p>In this project, I will be directing, illustrating most of the art and design, and developing the UI. It is currently in it's extremely early stages (mid-2020).</p></div>,
+          <p>In this project, I will be directing, illustrating most of the art and design, and creating many of the systems.</p></div>,
         },
         {
           title: "Endpoint",
@@ -130,7 +183,7 @@ class SectionProjects extends Component {
           tags: "Collaborative / Java",
           type: "key-other",
           image: ProjJThello,
-          video: VidJThello,
+          gif: VidJThello,
           class: "p-jthello",
           text: <div><p>As part of a course on my Human-Computer Interaction track, I collaborated with another student to create jThello. jThello is a Java-based Othello board game. I designed and implemented most of the interface.</p></div>,
         },
@@ -148,6 +201,8 @@ class SectionProjects extends Component {
 
     this.openModal = this.openModal.bind(this);
     this.closeModal = this.closeModal.bind(this);
+
+    this.setPlayBack = this.setPlayBack.bind(this);
   }
 
   handleFilterChange = (type, e) => {
@@ -199,6 +254,13 @@ class SectionProjects extends Component {
   closeModal() {
     // Change modal state.
     this.setState({ modalOpen: false });
+  }
+
+  // Set playback rate of element to high on play
+  setPlayBack(e) {
+    if (e !== null) {
+      e.target.playbackRate = 2;
+    }
   }
 
   render() {
@@ -267,7 +329,27 @@ class SectionProjects extends Component {
                     <div key={index} data-key={item.class} className={"projects-modal-item " + item.class}>
                       <p className="modal-flavor"><span className="highlight">> DISPLAYING</span> DETAILED DATA<span className="blinkingScore">_</span></p>
                       <div className="modal-image">
-                        {item.video ? <img src={item.video} /> : <img src={item.image} />}
+                        {(() => {
+                          if (item.gif) {
+                            return (
+                              <img src={item.gif} />
+                            )
+                          }
+                          else if (item.video) {
+                            return (
+                              <video src={item.video} 
+                                width="650"
+                                autoPlay muted
+                                onPlay={this.setPlayBack}
+                              />
+                            )
+                          }
+                          else {
+                            return (
+                              <img src={item.image} />
+                            )
+                          }
+                        })()}
                       </div>
                       <h4 className="modal-title">{item.title}</h4>
                       <p className="modal-tags">{item.tags}</p>
