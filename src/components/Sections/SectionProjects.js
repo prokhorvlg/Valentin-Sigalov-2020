@@ -25,6 +25,8 @@ import ProjSiteZeus from "../../images/ProjectImages/p-sz.png";
 import ProjJThello from "../../images/ProjectImages/p-jthello.png";
 import ProjTMSBro from "../../images/ProjectImages/p-tmsbro.png";
 
+import ProjSunsetSystem from "../../images/ProjectImages/p-sunset-system.jpg";
+
 import VidVS2017 from "../../video/vs2017.gif";
 import VidMorningArtifice from "../../video/ma1.gif";
 import VidJPMCCareers from "../../video/careers1.gif";
@@ -47,6 +49,17 @@ class SectionProjects extends Component {
       modalOpen: false,
       modalData: '',
       data: [
+        {
+          title: "Sunset System",
+          tags: "Personal / Sci-fi / Astro + React",
+          type: "key-web",
+          image: ProjSunsetSystem,
+          class: "p-sunset-system",
+          url: "https://www.sunset-system.com/",
+          text: <div><p>Sunset System is a fully custom, multiple-page website built using the relatively new Astro framework. The cool thing about Astro is that it streamlines things like image processing and generating markdown pages for static websites (like blogs), but still allows you to leverage frameworks of choice. In this case, the vast majority of the app is actually React components (islands) linked together using Astro.</p>
+          <h5>Subject Matter</h5>
+          <p>This website contains a lot of my writing and art in a sort of blog format. The website is about a world in which mankind vanished one day, leaving behind only robots in existential crisis.</p></div>,
+        },
         {
           title: "SiteZeus",
           tags: "Professional / Front-End / Vue 3",
@@ -195,7 +208,7 @@ class SectionProjects extends Component {
           class: "p-tmsbro",
           text: <div><p>Before Drexel's current registration system, the process for planning and getting the courses you wanted was awful. My personal solution was to create a small, cloud-based Python script which would use Selenium to visit Drexel's Term Schedule and check if the classes I wanted were open. If it was, it would send me an email informing me.</p>
           <p>It was only useful for about 2 quarters, because Drexel soon implemented a massively improved new registration system.</p></div>,
-        },
+        }
       ]
     };
 
@@ -327,7 +340,7 @@ class SectionProjects extends Component {
                   {this.state.data.map((item, index) => (
 
                     <div key={index} data-key={item.class} className={"projects-modal-item " + item.class}>
-                      <p className="modal-flavor"><span className="highlight">> DISPLAYING</span> DETAILED DATA<span className="blinkingScore">_</span></p>
+                      <p className="modal-flavor"><span className="highlight">{">"} DISPLAYING</span> DETAILED DATA<span className="blinkingScore">_</span></p>
                       <div className="modal-image">
                         {(() => {
                           if (item.gif) {
@@ -406,8 +419,8 @@ class SectionProjects extends Component {
                   <img className="segment-inner-image" src={ProjectsArt} alt="" />
               </div>
               <div className="segment-inner-content-container">
-                <h3>If you want to see my <span>art projects</span>...</h3>
-                <p>Please feel free to check out my numerous art projects over on my <a href="https://www.deviantart.com/prokhorvlg" target="_blank"><i className="fab fa-deviantart" style={{marginRight: "3px"}}></i>DeviantArt</a> profile! Note that I am currently working on Remnant artwork, which is typically not posted... it may seem as though I am inactive even though I'm not.</p>
+                <h3>If you want to see my <span>art</span>...</h3>
+                <p>Feel free to check out my drawings over on my <a href="https://www.deviantart.com/prokhorvlg" target="_blank"><i className="fab fa-deviantart" style={{marginRight: "3px"}}></i>DeviantArt</a> profile. It's mostly retrofuturism and robots.</p>
               </div>
             </div>
           </div>

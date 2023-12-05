@@ -103,16 +103,52 @@ class SectionSkills extends Component {
               <div className="skillsblock-inner-bottom">
                 <div className="skillsblock-bottom-content">
                   <p>I have used dozens of libraries to make my projects work.</p>
-                  <p>I really enjoy working with D3 and Leaflet to create visual representations of data.</p>
+                  <p>I enjoy creating visual representations of data, but it has been a moment since I've worked with Leaflet.</p>
                 </div>
                 <div className="skillsblock-bottom-chart">
+
+                  <div className="skillsblock-chart-row g-purple">
+                    <div className="skillsblock-row-title">
+                      <p>Recoil, Jotai</p>
+                    </div>
+                    <div className="skillsblock-row-amount">
+                      <div className="skillsblock-row-amount-fill" style={{width: '98%'}}></div>
+                    </div>
+                  </div>
+
+                  <div className="skillsblock-chart-row g-web">
+                    <div className="skillsblock-row-title">
+                      <p>TanStack Query</p>
+                    </div>
+                    <div className="skillsblock-row-amount">
+                      <div className="skillsblock-row-amount-fill" style={{width: '90%'}}></div>
+                    </div>
+                  </div>
+
+                  <div className="skillsblock-chart-row g-web">
+                    <div className="skillsblock-row-title">
+                      <p>Redux, VueX</p>
+                    </div>
+                    <div className="skillsblock-row-amount">
+                      <div className="skillsblock-row-amount-fill" style={{width: '81%'}}></div>
+                    </div>
+                  </div>
+
+                  <div className="skillsblock-chart-row g-web">
+                    <div className="skillsblock-row-title">
+                      <p>Pinia</p>
+                    </div>
+                    <div className="skillsblock-row-amount">
+                      <div className="skillsblock-row-amount-fill" style={{width: '86%'}}></div>
+                    </div>
+                  </div>
 
                   <div className="skillsblock-chart-row g-orange">
                     <div className="skillsblock-row-title">
                       <p>Leaflet</p>
                     </div>
                     <div className="skillsblock-row-amount">
-                      <div className="skillsblock-row-amount-fill" style={{width: '85%'}}></div>
+                      <div className="skillsblock-row-amount-fill" style={{width: '75%'}}></div>
                     </div>
                   </div>
 
@@ -121,34 +157,16 @@ class SectionSkills extends Component {
                       <p>D3</p>
                     </div>
                     <div className="skillsblock-row-amount">
-                      <div className="skillsblock-row-amount-fill" style={{width: '83%'}}></div>
+                      <div className="skillsblock-row-amount-fill" style={{width: '63%'}}></div>
                     </div>
                   </div>
 
                   <div className="skillsblock-chart-row g-web">
-                    <div className="skillsblock-row-title">
-                      <p>Bootstrap</p>
-                    </div>
-                    <div className="skillsblock-row-amount">
-                      <div className="skillsblock-row-amount-fill" style={{width: '79%'}}></div>
-                    </div>
-                  </div>
-
-                  <div className="skillsblock-chart-row g-web">
-                    <div className="skillsblock-row-title">
-                      <p>three.js</p>
-                    </div>
-                    <div className="skillsblock-row-amount">
-                      <div className="skillsblock-row-amount-fill" style={{width: '55%'}}></div>
-                    </div>
-                  </div>
-
-                  <div className="skillsblock-chart-row g-purple">
                     <div className="skillsblock-row-title">
                       <p>jQuery</p>
                     </div>
                     <div className="skillsblock-row-amount">
-                      <div className="skillsblock-row-amount-fill" style={{width: '85%'}}></div>
+                      <div className="skillsblock-row-amount-fill" style={{width: '89%'}}></div>
                     </div>
                   </div>
 
@@ -170,25 +188,34 @@ class SectionSkills extends Component {
               <div className="skillsblock-inner-bottom">
                 <div className="skillsblock-bottom-content">
                   <p>I've had experience with all three main modern frameworks!</p>
-                  <p>So much left to learn. But I'm always working on it!</p>
+                  <p>I prefer React for its versatility. Astro is excellent for static sites.</p>
                 </div>
                 <div className="skillsblock-bottom-chart">
+
+                <div className="skillsblock-chart-row g-green">
+                    <div className="skillsblock-row-title">
+                      <p>React</p>
+                    </div>
+                    <div className="skillsblock-row-amount">
+                      <div className="skillsblock-row-amount-fill" style={{width: '97%'}}></div>
+                    </div>
+                  </div>
 
                 <div className="skillsblock-chart-row g-java">
                     <div className="skillsblock-row-title">
                       <p>Vue 3</p>
                     </div>
                     <div className="skillsblock-row-amount">
-                      <div className="skillsblock-row-amount-fill" style={{width: '95%'}}></div>
+                      <div className="skillsblock-row-amount-fill" style={{width: '84%'}}></div>
                     </div>
                   </div>
 
-                  <div className="skillsblock-chart-row g-green">
+                  <div className="skillsblock-chart-row g-web">
                     <div className="skillsblock-row-title">
-                      <p>React</p>
+                      <p>Astro</p>
                     </div>
                     <div className="skillsblock-row-amount">
-                      <div className="skillsblock-row-amount-fill" style={{width: '77%'}}></div>
+                      <div className="skillsblock-row-amount-fill" style={{width: '92%'}}></div>
                     </div>
                   </div>
 
@@ -197,7 +224,7 @@ class SectionSkills extends Component {
                       <p>Jekyll</p>
                     </div>
                     <div className="skillsblock-row-amount">
-                      <div className="skillsblock-row-amount-fill" style={{width: '67%'}}></div>
+                      <div className="skillsblock-row-amount-fill" style={{width: '57%'}}></div>
                     </div>
                   </div>
 
@@ -206,7 +233,7 @@ class SectionSkills extends Component {
                       <p>Angular</p>
                     </div>
                     <div className="skillsblock-row-amount">
-                      <div className="skillsblock-row-amount-fill" style={{width: '52%'}}></div>
+                      <div className="skillsblock-row-amount-fill" style={{width: '42%'}}></div>
                     </div>
                   </div>
 
@@ -261,7 +288,7 @@ class SectionSkills extends Component {
               </div>
               <div className="skillsblock-inner-bottom">
                 <div className="skillsblock-bottom-content">
-                  <p>My experience with programming languages is quite varied. I've used C# for writing games, Java for writing desktop applications and some web back-ends, and Python for web scripting.</p>
+                  <p>My experience with programming languages is varied. I've used C# for writing games and APIs, Java for writing desktop applications and some web back-ends, and Python for web scripting and APIs.</p>
                 </div>
                 <div className="skillsblock-bottom-chart">
 
@@ -270,7 +297,7 @@ class SectionSkills extends Component {
                       <p>C#</p>
                     </div>
                     <div className="skillsblock-row-amount">
-                      <div className="skillsblock-row-amount-fill" style={{width: '88%'}}></div>
+                      <div className="skillsblock-row-amount-fill" style={{width: '94%'}}></div>
                     </div>
                   </div>
 
@@ -306,7 +333,7 @@ class SectionSkills extends Component {
                       <p>C++</p>
                     </div>
                     <div className="skillsblock-row-amount">
-                      <div className="skillsblock-row-amount-fill" style={{width: '35%'}}></div>
+                      <div className="skillsblock-row-amount-fill" style={{width: '25%'}}></div>
                     </div>
                   </div>
 

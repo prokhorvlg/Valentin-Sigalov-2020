@@ -55,8 +55,8 @@ class SectionAboutMe extends Component {
             <h3>Career Status</h3>
             <div className="stats-status-content">
               <h4>Employment</h4>
-              <p><strong>Currently looking for new work!</strong></p>
-              <p>Previously, I was a front end software engineer at SiteZeus. I worked on a GIS-based enterprise web application designed to assist with analysis and business planning for franchises and small businesses.</p>
+              <p><strong>Open to new opportunities</strong></p>
+              <p>Previously, I was a senior engineer at Bardavon Health Innovations. I worked on a number of enterprise applications designed to assist workers with physical injury prevention and rehabilitation.</p>
             </div>
           </div>
           <div className="stats-stats-container">
@@ -94,12 +94,12 @@ class SectionAboutMe extends Component {
             <div className="segment-inner-floaty segment-inner-floaty-2"></div>
             <div className="segment-inner-floaty segment-inner-floaty-3"></div>
             <div className="segment-inner-image-container">
-                <img className="segment-inner-image" src={DevelopmentSkill} alt="Latest development skill" />
-              <span>Latest development skill</span>
+                <img className="segment-inner-image" src={DevelopmentSkill} alt="React" />
+              <span>React</span>
             </div>
             <div className="segment-inner-content-container">
               <h3>I like <span>learning</span> and challenging myself.</h3>
-              <p>If I have spare time, I'm probably picking up a new technology as a software engineer, or flexing my creativity. This website was a way of doing both - exploring cyberpunk design, while also learning React!</p>
+              <p>If I have spare time, I'm probably picking up a new technology as a software engineer, or flexing my creativity. This website was a way of doing both - exploring clean futuristic design, while also learning React!</p>
             </div>
           </div>
         </div>
@@ -115,12 +115,12 @@ class SectionAboutMe extends Component {
                 <path fillRule="evenodd"  stroke="rgb(86, 204, 255)" strokeWidth="3px" strokeLinecap="round" strokeLinejoin="miter" fill="none"
                  d="M31.000,18.000 L3.000,18.000 "/>
                 </svg></div>
-                <img className="segment-inner-image" src={SunsetPic} alt="Humans vanished over a century ago" />
-              <span>Humans vanished over a century ago</span>
+                <img className="segment-inner-image" src={SunsetPic} alt="Parking enforcement bot" />
+              <span>Parking enforcement bot</span>
             </div>
             <div className="segment-inner-content-container">
                 <h3>I make (subjectively) cool <span>stuff</span>.</h3>
-              <p>Outside of work and school, I have a lot going on. Currently, I'm in progress on a passion project - leading a team of developers into creating a "metroidvania-style" video game called <span>Sunset System</span>. It's about robots facing an existential crisis after mankind is gone.</p>
+              <p>Outside of work, I have a lot going on. Currently, I'm working on a little worldbuilding project called <a href="https://www.sunset-system.com/" target="_blank">Sunset System</a>, a science fiction setting about robots facing existential crisis after mankind vanished. I'm working with some friends on a video game; we prototyped a lot in Unity, but just started looking at Monogame.</p>
             </div>
           </div>
         </div>

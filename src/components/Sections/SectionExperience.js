@@ -5,6 +5,7 @@ import JPMLogo from "../../images/experience-img-jpm.png";
 import SHMLogo from "../../images/experience-img-shm.png";
 import WindberLogo from "../../images/experience-img-windber.png";
 import SZlogo from "../../images/sz.jpg";
+import BardavonLogo from "../../images/bardavon.jpg"
 
 import DrexelLogo from "../../images/experience-img-drexel.png";
 import CentralLogo from "../../images/experience-img-central.png";
@@ -36,6 +37,42 @@ class SectionExperience extends Component {
           </div>
 
           <div className="section-experience-entry first">
+            <div className="experience-entry-left">
+              <div className="experience-entry-lines">
+                <div className="experience-entry-bottomline"></div>
+                <div className="experience-entry-topline"></div>
+              </div>
+              <div className="experience-entry-angledlines">
+                <div className="experience-entry-angledlinetop"></div>
+                <div className="experience-entry-angledlinebottom"></div>
+                <div className="experience-entry-angledmiddleline"></div>
+              </div>
+              <div className="experience-entry-point">
+                <div className="experience-entry-pointwrap">
+                  <svg
+                   width="8px" height="8px">
+                    <path fill-rule="evenodd" className="experience-entry-pointfill"
+                   d="M4.000,-0.000 C6.209,-0.000 8.000,1.791 8.000,4.000 C8.000,6.209 6.209,8.000 4.000,8.000 C1.791,8.000 -0.000,6.209 -0.000,4.000 C-0.000,1.791 1.791,-0.000 4.000,-0.000 Z"/>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div className="experience-entry-image">
+              <img className="experience-entry-inner-image" src={BardavonLogo} alt="Bardavon" />
+            </div>
+            <div className="experience-entry-content">
+              <h4>Senior Software Engineer</h4>
+              <h5 className="experience-entry-subtitle">Bardavon Health Innovations <span className="experience-entry-subtitle-it">(November 2022 - December 2023)</span></h5>
+              <ul>
+                <li>Engineered front-end solutions using React and various state management tools for features within multiple enterprise applications centered around rehabilitating injured workers</li>
+                <li>Developed full-stack solution for care quality tracking dashboard within an application designed to assist physical therapists with tracking patient progress, including new APIs using Python lambdas for creating and updating interventions</li>
+                <li>Created new web application using Vite, React, and TanStack Query designed to display physical injury prevention exercises within existing mobile app, in order to bridge services between products from different teams</li>
+                <li>Rapidly adapted, coordinated, and prioritized front-end efforts during a temporary team re-assignment to complete critical features within a two week deadline</li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="section-experience-entry">
             <div className="experience-entry-left">
               <div className="experience-entry-lines">
                 <div className="experience-entry-bottomline"></div>
