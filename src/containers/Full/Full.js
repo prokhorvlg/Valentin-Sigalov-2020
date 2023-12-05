@@ -145,7 +145,7 @@ class Full extends React.Component {
           handleWaypointLeave={this.handleWaypointLeave} 
           title={"Contact"} />
         <div className="full-footer">
-          <p>Valentin Sigalov <span>© 2020</span></p>
+          <p>Valentin Sigalov <span>© 2023</span></p>
         </div>
       </div>
     );
