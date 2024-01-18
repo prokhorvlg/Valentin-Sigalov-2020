@@ -305,6 +305,7 @@ class SectionProjects extends Component {
               <div className="segment-inner-content-container">
                 <h3>Here’s some <span>dev projects</span> I’ve worked on.</h3>
                 <p>You can use the buttons at the top to filter by type, and you can click on items to get an expanded description!</p>
+                <p>Some source code can be found on my <a href="https://github.com/prokhorvlg" target="_blank">Github profile.</a></p>
               </div>
             </div>
           </div>
