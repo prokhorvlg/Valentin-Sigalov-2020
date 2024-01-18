@@ -69,10 +69,10 @@ class SectionAboutMe extends Component {
                 <div className="stats-content-data"><span>Valentin Aleksandrovich Sigalov</span></div>
               </div>
 
-              <div className="stats-content-entry">
+              {/* <div className="stats-content-entry">
                 <div className="stats-content-title"><span>Age</span></div>
                 <div className="stats-content-data"><span>{this.state.yearsAlive}</span></div>
-              </div>
+              </div> */}
 
               <div className="stats-content-entry">
                 <div className="stats-content-title"><span>Location</span></div>
