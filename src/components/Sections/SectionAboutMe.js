@@ -88,7 +88,7 @@ class SectionAboutMe extends Component {
           </div>
         </div>
 
-        <div className="section-segment segment-learning">
+        {/* <div className="section-segment segment-learning">
           <div className="segment-inner">
             <div className="segment-inner-floaty segment-inner-floaty-1"></div>
             <div className="segment-inner-floaty segment-inner-floaty-2"></div>
@@ -147,7 +147,7 @@ class SectionAboutMe extends Component {
             <img src={SkyCat} alt="Sky the Cat" />
             <p>We adopted a former-feral of our own. Sky is the sweetest creature <span role="img" aria-label="smiley">😀</span></p>
           </div>
-        </div>
+        </div> */}
 
       </div>
 
