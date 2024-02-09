@@ -76,7 +76,7 @@ class SectionProjects extends Component {
           type: "key-web",
           image: ProjPomodoro,
           class: "p-pomo",
-          url: "https://prokhorvlg.github.io/pomodoro/",
+          url: "https://github.com/prokhorvlg/pomodoro",
           video: VidPomo,
           text: <div><p>pomodoro is a demo for a React-based pomodoro-styled timer web app.</p>
           <p>Fairly straight forward and strictly front-end, this was a quick project to demonstrate React hooks, functional components, and SCSS knowledge.</p></div>,
@@ -88,7 +88,7 @@ class SectionProjects extends Component {
           image: ProjTeammates,
           video: VidTeammates,
           class: "p-teammates",
-          url: "https://teammates-demo.herokuapp.com/",
+          url: "https://github.com/prokhorvlg/teammates",
           text: <div><p>teammates is a demo for a React-based employee directory application. It features a node server, React hooks, Typescript, and Jest unit testing.</p>
           <p>This, unfortunately, may go offline once Heroku's free tier goes away as it is hosted using a Heroku free dyno.</p></div>,
         },
@@ -102,7 +102,7 @@ class SectionProjects extends Component {
           url: "https://prokhorvlg.github.io/notebot/",
           text: <div><p>Notebot is a learning project and tech demo that I designed and wrote, with the purpose of writing, storing, and organizing text-based notes.</p>
           <p>In Notebot, I explored React Hooks and other modern JS framework concepts, as well as an integration with Google Firebase to serve as the back-end. I encourage you to open it and try it for yourself! All notes are associated with the ID generated in the query string.</p>
-          <p>Note: there is a minor bug in which the first few opened notes get registered as changed.</p></div>,
+          </div>,
         },
         {
           title: "Valentin Sigalov 2020",
@@ -135,80 +135,80 @@ class SectionProjects extends Component {
           url: "https://careers.jpmorgan.com/us/en/home",
           text: <div><p>I've worked on (and still work on) many JPMC websites, but I'm most proud of the work I did on this one. Among other things, I planned out and implemented the filtering component - it does everything from multiple API calls to retrieve options and job data, to the filtering logic for each variation of the component, to smooth UI look and feel.</p></div>,
         },
-        {
-          title: "Unturned Stones 2018",
-          tags: "Personal / Worldbuilding / Jekyll",
-          type: "key-web",
-          image: ProjUnturnedStones2018,
-          class: "p-unts-2018",
-          gif: VidUNTS,
-          text: <div><p>Unturned Stones (later revamped and renamed to Morning Artifice) was my primary worldbuilding project a while ago. It was meant to be a way of introducing people to, and storing info about, the science-fiction world I created that centered around the emergence of hyper-intelligent AI in an alternative future.</p>
-          <h5>Wiki-based Approach</h5>
-          <p>With Unturned Stones, I tried to create a wiki-esque site to store and present this info. However, after implementing the system and beginning to populate the content, I realized that a single person cannot reasonably manage a wiki. This (as well as changes in creative vision) led to the creation of Morning Artifice.</p></div>,
-        },
-        {
-          title: "Valentin Sigalov 2017",
-          tags: "Personal / Portfolio / Front-End",
-          type: "key-web",
-          image: ProjVS2017,
-          gif: VidVS2017,
-          class: "p-vs-2017",
-          url: "https://prokhorvlg.github.io/Valentin-Sigalov/",
-          text: <div><p>This was my previous personal/portfolio site. It was meant to be a sleek, static site with a simple clean design. I've taken some inspiration from it for this portfolio site, clearly.</p>
-            <p>If you want to go down the rabbit hole of older projects that didn't make this list, feel free head there...</p></div>,
-        },
-        {
-          title: "Places Demo",
-          tags: "Personal / Worldbuilding / D3js",
-          type: "key-web",
-          image: ProjPlacesDemo,
-          gif: VidPlaces,
-          class: "p-places-demo",
-          url: "http://www.unturnedston.es/places.html",
-          text: <div><p>As part of an earlier attempt to create a site for my old worldbuilding project Unturned Stones, I wanted to create a dynamic, changeable map of the setting, since it was constantly changing. The best way to do that turned out to be D3js, an awesome JavaScript library made for data visualization.</p>
-          <p>You can see the result here, in the "Places Demo". Midway through the project, I moved on to a new redesign of the setting and site, and abandoned this one. Thankfully though... it's a nice demo of what D3js could be used for!</p></div>,
-        },
-        {
-          title: "Sunset System",
-          tags: "Collaborative / C# / Unity",
-          type: "key-game",
-          image: ProjRemnant,
-          class: "p-remnant",
-          text: <div><p>Sunset System is a side project I began as a spiritual successor to Endpoint. It is a 2D metroidvania-styled action platformer set in an alternative future, a retro-futuristic world in which mankind vanished leaving only their machines behind.</p>
-          <h5>Roles</h5>
-          <p>In this project, I will be directing, illustrating most of the art and design, and creating many of the systems.</p></div>,
-        },
-        {
-          title: "Endpoint",
-          tags: "Class Group / C# / Unity",
-          type: "key-game",
-          image: ProjEndpoint,
-          class: "p-endpoint",
-          url: "http://www.cci.drexel.edu/SeniorDesign/2019_2020/Endpoint/endpoint-index.html",
-          text: <div><p>Endpoint is a 2.5d video game that I worked on as part of a team for my Senior Project for Drexel. It was my first experience with Unity. We used C#/Visual Studio to code it, Git/Github for repository and issue management, Azure DevOps for sprint tracking.</p>
-          <h5>Development</h5>
-          <p>I implemented most of the UI, and worked on some of the back-end systems.</p>
-          <h5>Art</h5>
-          <p>I also designed all of the graphic/UI elements, and drew all of the concept art for the game.</p></div>,
-        },
-        {
-          title: "jThello",
-          tags: "Collaborative / Java",
-          type: "key-other",
-          image: ProjJThello,
-          gif: VidJThello,
-          class: "p-jthello",
-          text: <div><p>As part of a course on my Human-Computer Interaction track, I collaborated with another student to create jThello. jThello is a Java-based Othello board game. I designed and implemented most of the interface.</p></div>,
-        },
-        {
-          title: "TMSBro Script",
-          tags: "Personal / Python / Selenium",
-          type: "key-other",
-          image: ProjTMSBro,
-          class: "p-tmsbro",
-          text: <div><p>Before Drexel's current registration system, the process for planning and getting the courses you wanted was awful. My personal solution was to create a small, cloud-based Python script which would use Selenium to visit Drexel's Term Schedule and check if the classes I wanted were open. If it was, it would send me an email informing me.</p>
-          <p>It was only useful for about 2 quarters, because Drexel soon implemented a massively improved new registration system.</p></div>,
-        }
+        // {
+        //   title: "Unturned Stones 2018",
+        //   tags: "Personal / Worldbuilding / Jekyll",
+        //   type: "key-web",
+        //   image: ProjUnturnedStones2018,
+        //   class: "p-unts-2018",
+        //   gif: VidUNTS,
+        //   text: <div><p>Unturned Stones (later revamped and renamed to Morning Artifice) was my primary worldbuilding project a while ago. It was meant to be a way of introducing people to, and storing info about, the science-fiction world I created that centered around the emergence of hyper-intelligent AI in an alternative future.</p>
+        //   <h5>Wiki-based Approach</h5>
+        //   <p>With Unturned Stones, I tried to create a wiki-esque site to store and present this info. However, after implementing the system and beginning to populate the content, I realized that a single person cannot reasonably manage a wiki. This (as well as changes in creative vision) led to the creation of Morning Artifice.</p></div>,
+        // },
+        // {
+        //   title: "Valentin Sigalov 2017",
+        //   tags: "Personal / Portfolio / Front-End",
+        //   type: "key-web",
+        //   image: ProjVS2017,
+        //   gif: VidVS2017,
+        //   class: "p-vs-2017",
+        //   url: "https://prokhorvlg.github.io/Valentin-Sigalov/",
+        //   text: <div><p>This was my previous personal/portfolio site. It was meant to be a sleek, static site with a simple clean design. I've taken some inspiration from it for this portfolio site, clearly.</p>
+        //     <p>If you want to go down the rabbit hole of older projects that didn't make this list, feel free head there...</p></div>,
+        // },
+        // {
+        //   title: "Places Demo",
+        //   tags: "Personal / Worldbuilding / D3js",
+        //   type: "key-web",
+        //   image: ProjPlacesDemo,
+        //   gif: VidPlaces,
+        //   class: "p-places-demo",
+        //   url: "http://www.unturnedston.es/places.html",
+        //   text: <div><p>As part of an earlier attempt to create a site for my old worldbuilding project Unturned Stones, I wanted to create a dynamic, changeable map of the setting, since it was constantly changing. The best way to do that turned out to be D3js, an awesome JavaScript library made for data visualization.</p>
+        //   <p>You can see the result here, in the "Places Demo". Midway through the project, I moved on to a new redesign of the setting and site, and abandoned this one. Thankfully though... it's a nice demo of what D3js could be used for!</p></div>,
+        // },
+        // {
+        //   title: "Sunset System",
+        //   tags: "Collaborative / C# / Unity",
+        //   type: "key-game",
+        //   image: ProjRemnant,
+        //   class: "p-remnant",
+        //   text: <div><p>Sunset System is a side project I began as a spiritual successor to Endpoint. It is a 2D metroidvania-styled action platformer set in an alternative future, a retro-futuristic world in which mankind vanished leaving only their machines behind.</p>
+        //   <h5>Roles</h5>
+        //   <p>In this project, I will be directing, illustrating most of the art and design, and creating many of the systems.</p></div>,
+        // },
+        // {
+        //   title: "Endpoint",
+        //   tags: "Class Group / C# / Unity",
+        //   type: "key-game",
+        //   image: ProjEndpoint,
+        //   class: "p-endpoint",
+        //   url: "http://www.cci.drexel.edu/SeniorDesign/2019_2020/Endpoint/endpoint-index.html",
+        //   text: <div><p>Endpoint is a 2.5d video game that I worked on as part of a team for my Senior Project for Drexel. It was my first experience with Unity. We used C#/Visual Studio to code it, Git/Github for repository and issue management, Azure DevOps for sprint tracking.</p>
+        //   <h5>Development</h5>
+        //   <p>I implemented most of the UI, and worked on some of the back-end systems.</p>
+        //   <h5>Art</h5>
+        //   <p>I also designed all of the graphic/UI elements, and drew all of the concept art for the game.</p></div>,
+        // },
+        // {
+        //   title: "jThello",
+        //   tags: "Collaborative / Java",
+        //   type: "key-other",
+        //   image: ProjJThello,
+        //   gif: VidJThello,
+        //   class: "p-jthello",
+        //   text: <div><p>As part of a course on my Human-Computer Interaction track, I collaborated with another student to create jThello. jThello is a Java-based Othello board game. I designed and implemented most of the interface.</p></div>,
+        // },
+        // {
+        //   title: "TMSBro Script",
+        //   tags: "Personal / Python / Selenium",
+        //   type: "key-other",
+        //   image: ProjTMSBro,
+        //   class: "p-tmsbro",
+        //   text: <div><p>Before Drexel's current registration system, the process for planning and getting the courses you wanted was awful. My personal solution was to create a small, cloud-based Python script which would use Selenium to visit Drexel's Term Schedule and check if the classes I wanted were open. If it was, it would send me an email informing me.</p>
+        //   <p>It was only useful for about 2 quarters, because Drexel soon implemented a massively improved new registration system.</p></div>,
+        // }
       ]
     };
 
@@ -310,7 +310,7 @@ class SectionProjects extends Component {
             </div>
           </div>
 
-          <div className="projects-filter-menu">
+          {/* <div className="projects-filter-menu">
             <div className="projects-filter-inner">
               <span>Filter by type:</span>
               <ul>
@@ -320,7 +320,7 @@ class SectionProjects extends Component {
                 <li><a href="#" className="filter-links" onClick={(e) => this.handleFilterChange("key-other", e)}>Other</a></li>
               </ul>
             </div>
-          </div>
+          </div> */}
 
           <Modal
              isOpen={this.state.modalOpen}
@@ -411,7 +411,7 @@ class SectionProjects extends Component {
             </div>
           </div>
 
-          <div className="section-segment segment-art-projects">
+          {/* <div className="section-segment segment-art-projects">
             <div className="segment-inner">
               <div className="segment-inner-image-container">
                   <div className="segment-inner-floaty segment-inner-floaty-1"></div>
@@ -424,7 +424,7 @@ class SectionProjects extends Component {
                 <p>Feel free to check out my drawings over on my <a href="https://www.deviantart.com/prokhorvlg" target="_blank"><i className="fab fa-deviantart" style={{marginRight: "3px"}}></i>DeviantArt</a> profile. It's mostly retrofuturism and robots.</p>
               </div>
             </div>
-          </div>
+          </div> */}
 
         </div>
       </div>

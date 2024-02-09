@@ -1496,6 +1496,7 @@ $stats-large-breakpoint: 1400px;
 
     @media (max-width: $stats-large-breakpoint) {
       margin-left: 0;
+      display: none;
     }
 
     h3 {

@@ -21,12 +21,12 @@ class Full extends React.Component {
     super(props);
 
     this.aboutme = "aboutme";
+    this.projects = "projects";
     this.skills = "skills";
     this.experience = "experience";
-    this.projects = "projects";
     this.contact = "contact";
 
-    this.sections = ["aboutme", "skills", "experience", "projects", "contact"];
+    this.sections = ["aboutme", "projects", "skills", "experience", "contact"];
 
     this.sidebarNav = $('.splash-left-sidebar-nav li');
     this.splashLowerBar = $('.splash-lower-bar');
@@ -125,6 +125,11 @@ class Full extends React.Component {
           handleWaypointLeave={this.handleWaypointLeave} 
           title={"About Me"} />
         <Section 
+          id={this.projects} 
+          handleWaypointEnter={this.handleWaypointEnter} 
+          handleWaypointLeave={this.handleWaypointLeave}
+          title={"Projects"} />
+        <Section 
           id={this.skills}  
           handleWaypointEnter={this.handleWaypointEnter} 
           handleWaypointLeave={this.handleWaypointLeave}
@@ -134,18 +139,14 @@ class Full extends React.Component {
           handleWaypointEnter={this.handleWaypointEnter} 
           handleWaypointLeave={this.handleWaypointLeave}
           title={"Experience"} />
-        <Section 
-          id={this.projects} 
-          handleWaypointEnter={this.handleWaypointEnter} 
-          handleWaypointLeave={this.handleWaypointLeave}
-          title={"Projects"} />
+        
         <Section
           id={this.contact} 
           handleWaypointEnter={this.handleWaypointEnter} 
           handleWaypointLeave={this.handleWaypointLeave} 
           title={"Contact"} />
         <div className="full-footer">
-          <p>Valentin Sigalov <span>© 2023</span></p>
+          <p>Valentin Sigalov <span>© {new Date().getFullYear()}</span></p>
         </div>
       </div>
     );

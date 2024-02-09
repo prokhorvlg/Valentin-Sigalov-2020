@@ -39,12 +39,12 @@ class SectionAboutMe extends Component {
                 <div className="segment-inner-floaty segment-inner-floaty-1"></div>
                 <div className="segment-inner-floaty segment-inner-floaty-2"></div>
                 <div className="segment-inner-floaty segment-inner-floaty-3"></div>
-                <img className="segment-inner-image" src={GalAndMe} alt="The Gal and me in Paris" />
-              <span>The gal and me in Paris</span>
+                <img className="segment-inner-image" src={GalAndMe} alt="in Paris" />
+              <span>in Paris</span>
             </div>
             <div className="segment-inner-content-container">
                 <h3>Hello!</h3>
-              <p>I am a Philadelphia-based full-stack web developer with {this.state.yearsProfessionalExperience} years of professional experience, and a passion for interactive software.</p>
+              <p>I am a full-stack software engineer with {this.state.yearsProfessionalExperience} years of professional experience, and a passion for interactive software.</p>
               <p>My favorite thing to do is to bring new user experiences to life by combining great design with sleek code.</p>
             </div>
           </div>
@@ -66,7 +66,7 @@ class SectionAboutMe extends Component {
               <div className="stats-content-entry">
 
                 <div className="stats-content-title"><span>Name</span></div>
-                <div className="stats-content-data"><span>Valentin Aleksandrovich Sigalov</span></div>
+                <div className="stats-content-data"><span>Valentin Sigalov</span></div>
               </div>
 
               {/* <div className="stats-content-entry">

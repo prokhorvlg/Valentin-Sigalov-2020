@@ -24,21 +24,17 @@ class SplashProfile extends React.Component {
 
         <div className="splash-left-upper-container">
           <div className="splash-left-upper">
-            <div className="splash-profile-picture">
+            {/* <div className="splash-profile-picture">
 
               <img src={ResumePic} alt="Valentin Sigalov " />
 
-              {/* PROFILE PIC ANIMS: background squares */}
-
               <svg width="850" height="450" className="splash-profile-anim splash-anim-bgSquares" style={{ opacity: 0.3 }}>
 
-                {/* Large Rectangles */}
 
                 <rect className="splash-anim-bgSquare" x="50%" y="50%" width="250" height="250" fill="#ff9b0b" stroke="none" data-constraints="[30,60,10,30]" data-slide-scale="[1,20]" />
 
                 <rect className="splash-anim-bgSquare" x="50%" y="50%" width="150" height="150" fill="#ff9b0b" stroke="none" data-constraints="[60,80,20,50]" data-slide-scale="[15,30]" />
 
-                {/* Baby Rectangles */}
 
                 <rect className="splash-anim-bgSquare" x="50%" y="50%" width="45" height="45" fill="#ff9b0b" stroke="none" data-constraints="[80,160,50,60]" data-slide-scale="[30,70]" />
 
@@ -79,8 +75,6 @@ class SplashProfile extends React.Component {
 
               </div>
 
-              {/* PROFILE PIC ANIMS: funky circle frame */}
-
               <div className="splash-anim-frameCircles">
 
                 <svg className="splash-profile-anim" width="250" height="250">
@@ -101,13 +95,13 @@ class SplashProfile extends React.Component {
 
               </div>
 
-            </div>
+            </div> */}
             <div className="splash-profile-details">
               <div className="splash-name">
                 <h1>Valentin Sigalov</h1>
               </div>
               <div className="splash-tagline">
-                <span>Full-Stack Web Developer</span>
+                <span>Full-Stack Software Engineer</span>
               </div>
             </div>
           </div>
@@ -131,9 +125,9 @@ class SplashProfile extends React.Component {
         <nav className="splash-left-sidebar-nav">
           <ul>
             <NavButton topic={"about me"} id={"aboutme"} splash={this.props.splash} />
+            <NavButton topic={"projects"} id={"projects"} splash={this.props.splash} />
             <NavButton topic={"skills"} id={"skills"} splash={this.props.splash} />
             <NavButton topic={"experience"} id={"experience"} splash={this.props.splash} />
-            <NavButton topic={"projects"} id={"projects"} splash={this.props.splash} />
             <NavButton topic={"contact"} id={"contact"} splash={this.props.splash} />
           </ul>
         </nav>

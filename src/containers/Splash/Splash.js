@@ -335,9 +335,9 @@ class Splash extends React.Component {
                   <nav className="splash-right-nav">
                     <ul>
                       <NavButton topic={"about me"} id={"aboutme"} splash={this} />
+                      <NavButton topic={"projects"} id={"projects"} splash={this} />
                       <NavButton topic={"skills"} id={"skills"} splash={this} />
                       <NavButton topic={"experience"} id={"experience"} splash={this} />
-                      <NavButton topic={"projects"} id={"projects"} splash={this} />
                       <NavButton topic={"contact"} id={"contact"} splash={this} />
                     </ul>
                   </nav>

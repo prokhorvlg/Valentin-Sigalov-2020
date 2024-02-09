@@ -18,7 +18,7 @@ class Section extends Component {
 
     this.content = {
       aboutme: {
-        description: 'Welcome to my personal site! It\'s kind of an online resume, but with extra pretty colors, and a bit about myself.',
+        description: '',//'Welcome to my personal site! It\'s kind of an online resume, but with extra pretty colors, and a bit about myself.',
         links: [
         ],
         codetexts: [
@@ -34,7 +34,7 @@ class Section extends Component {
         ]
       },
       skills: {
-        description: 'Here’s what I know! These are technologies I am familiar with, categorized by their general application.',
+        description: '',//'Here’s what I know! These are technologies I am familiar with, categorized by their general application.',
         links: [
           {
             text: "Web Technologies",
@@ -64,7 +64,7 @@ class Section extends Component {
         ]
       },
       experience: {
-        description: 'Here are the jobs I\'ve held (they\'re all web-development related), and my education.',
+        description: '',//'Here are the jobs I\'ve held (they\'re all web-development related), and my education.',
         links: [
           {
             text: "Professional",
@@ -84,7 +84,7 @@ class Section extends Component {
         ]
       },
       projects: {
-        description: 'Most of my free-time is spent on development and creative work. Most of these are personal, and some are professional!',
+        description: '',//'Most of my free-time is spent on development and creative work. Most of these are personal, and some are professional!',
         links: [],
         codetexts: [
           "DEV",
